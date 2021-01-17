@@ -1,6 +1,4 @@
 import React from "react";
-import InvolvementCard from "../components/involvement/InvolvementCard";
-import involvementData from "../data/involvementData";
 import AOS from "aos";
 
 class Involvement extends React.Component {
@@ -10,7 +8,6 @@ class Involvement extends React.Component {
         });
     }
     render() {
-        const InvolvementComponent = involvementData.map(item => < InvolvementCard key={item.id} item={item}/>);
         return (
             <div className="container involvement">
                 <div className="row">
@@ -19,7 +16,6 @@ class Involvement extends React.Component {
                     </div>
                 </div>
                 <div className="row involvement-cards">
-                    {InvolvementComponent}
                 </div>
             </div>
         );

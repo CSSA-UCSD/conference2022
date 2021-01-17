@@ -16,7 +16,7 @@ class Footer extends React.Component {
                     </div>
                 </div>
 
-                <div className="footer-copyright text-center py-3">© 2020 
+                <div className="footer-copyright text-center py-3">© 2021 
                     <a href="https://cssa-ucsd.org/"> CSSA at UCSD</a>
                 </div>
 

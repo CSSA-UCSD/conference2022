@@ -4,16 +4,16 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
-import Team from './pages/Team';
-import Events from './pages/Events';
+import Schedule from './pages/Schedule';
+import Speakers from './pages/Speakers';
 import Involvement from './pages/Involvement';
 
 const Main = () => {
   return (
     <Switch> {/* The Switch decides which component to show based on the current URL.*/}
       <Route exact path='/' component={Home}></Route>
-      <Route exact path='/team' component={Team}></Route>
-      <Route exact path='/events' component={Events}></Route>
+      <Route exact path='/schedule' component={Schedule}></Route>
+      <Route exact path='/speakers' component={Speakers}></Route>
       <Route exact path='/involvement' component={Involvement}></Route>
     </Switch>
   );
