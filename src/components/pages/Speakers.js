@@ -11,7 +11,13 @@ class Events extends React.Component {
 
     render() {
         return (
-            <div className="container events">
+            <div className="speakers">
+                <div className="container py-5">
+                    <div className="speakers-title">
+                        <h4>Innovations in Intelligence</h4>
+                        <h1>Speakers</h1>
+                    </div>
+                </div>
             </div>
         );
     }

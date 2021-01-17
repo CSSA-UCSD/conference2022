@@ -4,9 +4,12 @@ import '../../style/main.scss';
 class Team extends React.Component {
     render() {
         return (
-            <div className="team">
-                <div className="container">
-                    <h1>Meet the Team</h1>
+            <div className="schedule">
+                <div className="container py-5">
+                    <div className="schedule-title">
+                        <h4>Innovations in Intelligence</h4>
+                        <h1>Schedule</h1>
+                    </div>
 
                 </div>
             </div>
