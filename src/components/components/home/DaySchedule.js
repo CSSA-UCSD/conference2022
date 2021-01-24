@@ -1,5 +1,6 @@
 import React from "react";
 import AOS from "aos";
+import Testing from "../../../img/Test/testimg.JPG";
 
 
 class DaySchedule extends React.Component {
@@ -15,12 +16,15 @@ class DaySchedule extends React.Component {
 
         return (
             <div className="day-schedule pb-5" data-aos="fade-up">
-                <div className="day-img">
+                <div className="row container">
+                <div className="day-img col-4">
+                    <img src={Testing} alt="test"></img>
                 </div>
-                <div className="day-info">
+                <div className="day-info col-8">
                     <h4>{this.props.item.date}</h4>
                     <h2>{this.props.item.name}</h2>
                     <p>{this.props.item.description}</p>
+                </div>
                 </div>
 
             </div>
