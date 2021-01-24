@@ -1,6 +1,6 @@
 import React from "react";
-
 import AOS from "aos";
+import Speaker from "../components/speakers/Speaker"
 
 class Events extends React.Component {
     componentDidMount() {
@@ -16,6 +16,7 @@ class Events extends React.Component {
                     <div className="speakers-title">
                         <h4>Innovations in Intelligence</h4>
                         <h1>Speakers</h1>
+                        < Speaker/>
                     </div>
                 </div>
             </div>
