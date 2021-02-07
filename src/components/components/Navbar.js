@@ -12,13 +12,19 @@ class Navbar extends React.Component {
                         <div className="menu">
                             <ul className="nav">
                                 <li className='nav-item'>
-                                    <Link to='/schedule' className='nav-link'>Schedule</Link>
+                                    <h6>
+                                        <Link to='/schedule' className='nav-link'>Schedule</Link>
+                                    </h6>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link to='/speakers' className='nav-link'>Speakers</Link>
+                                    <h6>
+                                        <Link to='/speakers' className='nav-link'>Speakers</Link>
+                                    </h6>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link to='/' className='nav-link'>Register</Link>
+                                    <h6>
+                                        <Link to='/' className='nav-link'>Register</Link>
+                                    </h6>
                                 </li>
                             </ul>
                         </div>

@@ -3,18 +3,22 @@
     font-family: 'Wavehaus';
     src: url("../../assets/fonts/graham-paterson-wavehaus-typeface/Wavehaus-95SemiBold.otf") format('opentype');
 }
+@font-face {
+    font-family: 'Wavehaus';
+    src: url("../../assets/fonts/graham-paterson-wavehaus-typeface/Wavehaus-66Book.otf") format('opentype');
+}
 @import url(https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,400;0,500;1,400;1,500&display=swap);
 // fonts
 $header-font: 'Wavehaus', sans-serif;
 $body-font: 'Be Vietnam', sans-serif;
 
 // colors
-$primary-dark: #133B51;
-$primary-light: #FFFFFF;
-
-$accent-1: #92F9F3;
-$accent-2: #FD643D;
-$accent-3: #FEC44A;
+$primary-light: #001C16;
+$primary-dark: #FFFFFF;
+$accent-1: #00E8F1;
+$accent-2: #FE2047;
+$accent-3: #FEC60F;
+$accent-4: #FF007B;
 
 // body colors
 body {
@@ -25,6 +29,7 @@ body {
 // type scale
 h1, h2, h3, h4, h5, h6 {
     font-family: $header-font;
+    text-transform: uppercase;
 }
 
 h1 {
