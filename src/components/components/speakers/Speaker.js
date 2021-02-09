@@ -14,17 +14,15 @@ class Speaker extends React.Component {
 
 
         return (
-            <div className="day-schedule pb-5" data-aos="fade-up">
-                <div className="day-img">
+            <div className="day-schedule col-md-4 py-3" data-aos="fade-up">
+                <div className="speaker-img pb-3">
+                    <img src={ require(`../../../img/speakers/${this.props.item.img}`).default } 
+                        alt={this.props.item.name} ></img>
                 </div>
-                {/*
-                <div className="day-info">
-                    <h4>{this.props.item.date}</h4>
-                    <h2>{this.props.item.name}</h2>
-                    <p>{this.props.item.description}</p>
+                <div className="speaker-title">
+                    <h5>{this.props.item.name}</h5>
+                    <p>{this.props.item.title}</p>
                 </div>
-                */}
-
             </div>
         );
     }

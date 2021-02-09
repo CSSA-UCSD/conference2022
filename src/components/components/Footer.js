@@ -1,6 +1,7 @@
 import React from "react";
 import socialMedia from "../data/socialMedia";
 import SocialIcons from "./SocialIcons";
+import CSSALogo from "../../img/logos/Wordmark_White.svg"
 
 class Footer extends React.Component {
     render() {
@@ -16,8 +17,8 @@ class Footer extends React.Component {
                     </div>
                 </div>
 
-                <div className="footer-copyright text-center py-3">© 2021 
-                    <a href="https://cssa-ucsd.org/"> CSSA at UCSD</a>
+                <div className="footer-copyright text-center py-3"><span className="copywrite">© 2021 </span>
+                    <a href="https://cssa-ucsd.org/"> <img src={CSSALogo} alt="CSSA"></img></a>
                 </div>
 
             </footer>

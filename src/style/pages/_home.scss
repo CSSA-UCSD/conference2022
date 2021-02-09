@@ -1,3 +1,7 @@
+img {
+    border-radius: 0.5rem;
+}
+
 .home-title {
     h2 {
         font-size: 3.5rem;
@@ -25,14 +29,33 @@
 /* Styling for Schedule Section */
 .schedule {
     .day-schedule-content {
-        border: 0.25rem solid;
-        border-image-source: linear-gradient(135deg, $accent-1, $accent-4);
-        border-image-slice: 1;
-        border-radius: 1rem;
+        position: relative;
+        border: 0.25rem solid transparent;
+        border-radius: 16px;
+        background: $primary-light;
+        background-clip: padding-box;
+        padding: 1rem;
+
+        &::after {
+            position: absolute;
+            top: -0.25rem; bottom: -0.25rem;
+            left: -0.25rem; right: -0.25rem;
+            background: linear-gradient(135deg, $accent-1, $accent-4);
+            content: '';
+            z-index: -1;
+            border-radius: 16px;
+        }
 
         p {
             margin-bottom: 0 !important;
         }
+    }
+}
+
+/* Styling for Speakers Section */
+.speaker-img {
+    img {
+        width: 100%;
     }
 }
 

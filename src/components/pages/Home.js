@@ -2,8 +2,13 @@ import React from "react";
 import AOS from "aos";
 import '../../style/main.scss'
 import { Link } from "react-router-dom";
+
 import DaySchedule from "../components/home/DaySchedule";
 import DayScheduleData from "../data/home/DayScheduleData";
+
+import SpeakerPreview from "../components/home/SpeakerPreview";
+import SpeakerData from "../data/SpeakerData";
+
 import HomeImg from "../../img/home/homeImg.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -18,6 +23,7 @@ class Home extends React.Component {
 
     render() {
         const ScheduleComponent = DayScheduleData.map(item => < DaySchedule key={item.id} item={item}/>);
+        const SpeakerComponent = SpeakerData.map(item => < SpeakerPreview key={item.id} item={item}/>);
         const responsive = {
             superLargeDesktop: {
               // the naming can be any, depends on you.
@@ -49,13 +55,12 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div className="schedule">
-                    <h3><Link to='/schedule' className='nav-link'><span class="header-gradient">Schedule</span></Link></h3>
+                    <h3><Link to='/schedule' className='nav-link'><span className="header-gradient">Schedule</span></Link></h3>
                     {ScheduleComponent}
                 </div>
-                <div className="speakers">
-                    <h3><Link to='/speakers' className='nav-link'><span class="header-gradient">Speakers</span></Link></h3>
+                <div className="speakers pb-5">
+                    <h3><Link to='/speakers' className='nav-link'><span className="header-gradient">Speakers</span></Link></h3>
                     <div className="speakers-carousel">
-
                         <Carousel 
                         responsive={responsive}
                         infinite={true}
@@ -63,10 +68,7 @@ class Home extends React.Component {
                         autoPlaySpeed={2000}
                         centerMode={true}
                         >
-                            <div>Item 1</div>
-                            <div>Item 2</div>
-                            <div>Item 3</div>
-                            <div>Item 4</div>
+                           {SpeakerComponent}
                         </Carousel>
                     </div>
                 </div>
