@@ -4,6 +4,11 @@
     height: auto;
     z-index: 100;
 
+    .container {
+        margin: 0 !important;
+        max-width: 100% !important;
+    }
+
     .navbar-brand{
         display: block;
         margin: auto;

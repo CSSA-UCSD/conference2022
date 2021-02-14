@@ -2,30 +2,13 @@ img {
     border-radius: 0.5rem;
 }
 
-.home-title {
-    h2 {
-        font-size: 3.5rem;
-        line-height: 4rem;
-        font-weight: lighter;
-    }
-}
-.home-img {
-    img{
-        width: inherit;
-    }
-}
-
-.day-img {
-    img{
-        width: inherit;
-    }
-}
 
 .header-gradient {
     background: -webkit-linear-gradient(135deg, $accent-1, $accent-3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 /* Styling for Schedule Section */
 .schedule {
     .day-schedule-content {
@@ -50,6 +33,12 @@ img {
             margin-bottom: 0 !important;
         }
     }
+
+    .day-img {
+        img{
+            width: inherit;
+        }
+}
 }
 
 /* Styling for Speakers Section */
@@ -57,26 +46,6 @@ img {
     img {
         width: 100%;
     }
-}
-
-.home-initial {
-    height: calc(100vh - 76px);
-    justify-content: center; 
-    align-items: center;
-    padding: 40vh 10% 0 10%;
-
-    .home-title {
-        display: none;
-        width: 100%;
-
-        h1.title {
-            font-size: 24px;
-            line-height: 36px;
-            margin-bottom: 0;
-        }
-        
-    }
-
 }
 
 .home {
@@ -93,28 +62,24 @@ img {
     &-buttons {
         padding-top: 10vh;
     }
-}
 
-#learn-more {
-    img {
-        width: inherit;
-        transform: translateY(-1rem);
-    }
-}
-
-/*
-@include media-sm {
-    .home-initial {
-    
-        .home-title {
-            h1.title {
-                font-size: 2.5rem;
-            }
+    &-title {
+        h2 {
+            font-size: 3.5rem;
+            line-height: 4rem;
+            font-weight: lighter;
         }
     }
-}
-*/
+    &-img {
+        img{
+            width: inherit;
+        }
+    }
 
+    svg {
+        margin: auto;
+    }
+}
 
 /* Home Page Animation */
 .animation{
