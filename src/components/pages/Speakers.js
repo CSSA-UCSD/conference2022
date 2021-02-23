@@ -19,12 +19,11 @@ class Events extends React.Component {
             <div className="speakers">
                 <div className="container py-5">
                     <div className="speakers-title header-gradient pt-5">
-                        <h4>Innovations in Intelligence</h4>
-                        <h1 className="pb-5">Speakers</h1>
+                        <h1 className="">Speakers</h1>
                     </div>
-                    <div className="container row">
-                        {SpeakerComponent}
-                    </div>
+                </div>
+                <div className="px-5 row">
+                    {SpeakerComponent}
                 </div>
             </div>
         );

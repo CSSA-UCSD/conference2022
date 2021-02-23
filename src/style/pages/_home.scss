@@ -4,7 +4,7 @@ img {
 
 
 .header-gradient {
-    background: -webkit-linear-gradient(135deg, $accent-1, $accent-3);
+    background: -webkit-linear-gradient(135deg, $accent-1, $gradient-c-1, $gradient-w-5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -23,7 +23,7 @@ img {
             position: absolute;
             top: -0.25rem; bottom: -0.25rem;
             left: -0.25rem; right: -0.25rem;
-            background: linear-gradient(135deg, $accent-1, $accent-4);
+            background: linear-gradient(135deg, $gradient-c-1, $gradient-c-2, $gradient-c-3, $gradient-c-4, $gradient-c-5);
             content: '';
             z-index: -1;
             border-radius: 16px;

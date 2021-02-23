@@ -14,7 +14,7 @@ class Speaker extends React.Component {
 
 
         return (
-            <div className="day-schedule col-md-4 py-3" data-aos="fade-up">
+            <div className="speaker col-md-4 py-3" data-aos="fade-up">
                 <div className="speaker-img pb-3">
                     <img src={ require(`../../../img/speakers/${this.props.item.img}`).default } 
                         alt={this.props.item.name} ></img>

@@ -1,0 +1,36 @@
+.speakers {
+    .speaker {
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        &-img {
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+
+            &:hover {
+                -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+                filter: grayscale(0%);
+            }
+        }
+
+        &-title {
+            position: absolute;
+            bottom: 10%;
+            left: 10%;
+            h5 {
+                margin: 0 !important;
+                font-weight: 500;
+                font-family: $body-font;
+
+                background: -webkit-linear-gradient(135deg, $gradient-w-5, $gradient-w-3, $gradient-c-5);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p {
+                color: $gradient-c-5;
+            }
+        }
+    }
+}

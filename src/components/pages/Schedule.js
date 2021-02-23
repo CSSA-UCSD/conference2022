@@ -9,7 +9,6 @@ class Team extends React.Component {
             <div className="schedule pt-5">
                 <div className="container py-5">
                     <div className="schedule-title header-gradient">
-                        <h4>Innovations in Intelligence</h4>
                         <h1 className="pb-5">Schedule</h1>
                     </div>
                     <Day />
