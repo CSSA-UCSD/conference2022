@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.7aaab6e3.chunk.css",
-    "main.js": "/static/js/main.29580541.chunk.js",
-    "main.js.map": "/static/js/main.29580541.chunk.js.map",
+    "main.css": "/static/css/main.3bd89f98.chunk.css",
+    "main.js": "/static/js/main.99a69d85.chunk.js",
+    "main.js.map": "/static/js/main.99a69d85.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d25ba2e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d25ba2e.js.map",
     "static/css/2.acc986e7.chunk.css": "/static/css/2.acc986e7.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.1ae5f988.chunk.js.map": "/static/js/2.1ae5f988.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.acc986e7.chunk.css.map": "/static/css/2.acc986e7.chunk.css.map",
-    "static/css/main.7aaab6e3.chunk.css.map": "/static/css/main.7aaab6e3.chunk.css.map",
+    "static/css/main.3bd89f98.chunk.css.map": "/static/css/main.3bd89f98.chunk.css.map",
     "static/js/2.1ae5f988.chunk.js.LICENSE.txt": "/static/js/2.1ae5f988.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/static/media/Wavehaus-95SemiBold.4e467f6b.otf",
     "static/media/Wordmark_Dark.b599f14b.svg": "/static/media/Wordmark_Dark.b599f14b.svg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.4d25ba2e.js",
     "static/css/2.acc986e7.chunk.css",
     "static/js/2.1ae5f988.chunk.js",
-    "static/css/main.7aaab6e3.chunk.css",
-    "static/js/main.29580541.chunk.js"
+    "static/css/main.3bd89f98.chunk.css",
+    "static/js/main.99a69d85.chunk.js"
   ]
 }
