@@ -64,6 +64,16 @@ a {
     }
 }
 
+button {
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit
+}
+
 :export {
     primaryLight: $primary-light;
     primaryDark: $primary-dark;

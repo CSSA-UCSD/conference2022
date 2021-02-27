@@ -9,7 +9,6 @@ import DayScheduleData from "../data/home/DayScheduleData";
 import SpeakerPreview from "../components/home/SpeakerPreview";
 import SpeakerData from "../data/SpeakerData";
 
-import HomeImg from "../../img/home/homeImg.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -41,11 +40,24 @@ class Home extends React.Component {
                 slidesToSlide: 1 // optional, default to 1.
               }
           };
+          const ButtonGroup = ({ next, previous}) => {
+            return (
+                <div className="custom-button-group row d-flex">
+                    <div className="speakers-home-link mr-auto align-self-center">
+                        <h3><Link to='/speakers' className='nav-link'><span className="header-gradient">Speakers</span></Link></h3>
+                    </div>
+                    <div className="buttons pr-3">
+                        <button className="pr-3" onClick={() => previous()}><p>&#8249;</p></button>
+                        <button onClick={() => next()}><p>&#8250;</p></button>
+                    </div>
+                </div>
+              );
+          };
 
         return (
             <div className="home container">
                 <div className="row py-5">
-                    <div className="home-img col-sm-6">
+                    <div className="home-img col-sm-6 d-flex align-items-center">
                         <svg width="447" height="447" viewBox="0 0 447 447" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M341.243 365.407C338.235 370.305 334.931 378.89 344.594 383.467C356.558 389.134 369.152 358.909 376.507 345.887" stroke="white" stroke-width="8.10409" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M323.223 252.362C257.06 358.35 270.793 378.506 313.697 316.361C365.709 241.024 332.002 317.297 332.002 317.297" stroke="white" stroke-width="8.10409" stroke-linecap="round" stroke-linejoin="round"/>
@@ -79,7 +91,6 @@ class Home extends React.Component {
                     {ScheduleComponent}
                 </div>
                 <div className="speakers pb-5">
-                    <h3><Link to='/speakers' className='nav-link'><span className="header-gradient">Speakers</span></Link></h3>
                     <div className="speakers-carousel">
                         <Carousel 
                         responsive={responsive}
@@ -87,6 +98,9 @@ class Home extends React.Component {
                         autoPlay={true}
                         autoPlaySpeed={2000}
                         centerMode={true}
+                        arrows={false}
+                        renderButtonGroupOutside={true} 
+                        customButtonGroup={<ButtonGroup />}
                         >
                            {SpeakerComponent}
                         </Carousel>

@@ -1,0 +1,20 @@
+.schedule {
+    .event-button {
+        position: absolute;
+        border: 0.025rem solid transparent;
+        border-radius: 16px;
+        background: $primary-light;
+        background-clip: padding-box;
+        padding: 0.25rem;
+
+        &::after {
+            position: absolute;
+            top: -0.15rem; bottom: -0.15rem;
+            left: -0.15rem; right: -0.15rem;
+            background: linear-gradient(135deg, $gradient-c-1, $gradient-c-2, $gradient-c-3, $gradient-c-4, $gradient-c-5);
+            content: '';
+            z-index: -1;
+            border-radius: 16px;
+        }
+    }
+}
