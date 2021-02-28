@@ -6,6 +6,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Schedule from './pages/Schedule';
 import Speakers from './pages/Speakers';
+import Register from './pages/Register';
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
       <Route exact path='/' component={Home}></Route>
       <Route exact path='/schedule' component={Schedule}></Route>
       <Route exact path='/speakers' component={Speakers}></Route>
+      <Route exact path='/register' component={Register}></Route>
     </Switch>
   );
 }

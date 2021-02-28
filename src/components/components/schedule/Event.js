@@ -37,8 +37,8 @@ class Event extends React.Component {
                     <h4>{this.props.item.date}</h4>
                     <h2>{this.props.item.name}</h2>
                     <p>{this.props.item.description}</p>
-                    <div className="event-button">
-                        <button>
+                    <div>
+                        <button className="gradient-button">
                             <a className="" href={this.props.item.url} target="_blank" rel="noopener noreferrer">Zoom Link</a>
                         </button>
                     </div>
