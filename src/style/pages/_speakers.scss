@@ -1,4 +1,22 @@
 .speakers {
+    /* Speaker Images */
+    img {
+        height: 250px;
+        object-fit: cover;
+    }
+    @include media-md {
+        img {
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+    @include media-lg {
+        img {
+            height: 450px;
+            object-fit: cover;
+        }
+    }
+
     .speaker {
 
         &:hover {
@@ -33,4 +51,53 @@
             }
         }
     }
+}
+
+/* pop-up modal */
+.modal {
+    position: relative;
+    background-color: $primary-light;
+    border-radius: 1rem;
+}
+@at-root.modal {
+  font-size: 12px;
+  display: block;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: 0.5rem;
+  top: 0.5rem;
+  font-size: 24px;
+  color: $primary-dark;
+  //background: #ffffff;
+  //border-radius: 18px;
+  //border: 1px solid #cfcece;
+}
+.popup-content {
+    margin: auto;
+    background: $primary-light;
+    padding: 1rem;
+    border: 1px solid #d7d7d7;
+    border-radius: 1rem;
 }
