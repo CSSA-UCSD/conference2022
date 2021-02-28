@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/conference2021/static/css/main.3e7f7864.chunk.css",
-    "main.js": "/conference2021/static/js/main.8264ebe1.chunk.js",
-    "main.js.map": "/conference2021/static/js/main.8264ebe1.chunk.js.map",
+    "main.css": "/conference2021/static/css/main.62a9a61a.chunk.css",
+    "main.js": "/conference2021/static/js/main.e621580f.chunk.js",
+    "main.js.map": "/conference2021/static/js/main.e621580f.chunk.js.map",
     "runtime-main.js": "/conference2021/static/js/runtime-main.f68e7507.js",
     "runtime-main.js.map": "/conference2021/static/js/runtime-main.f68e7507.js.map",
-    "static/css/2.9188ba00.chunk.css": "/conference2021/static/css/2.9188ba00.chunk.css",
-    "static/js/2.f60f623c.chunk.js": "/conference2021/static/js/2.f60f623c.chunk.js",
-    "static/js/2.f60f623c.chunk.js.map": "/conference2021/static/js/2.f60f623c.chunk.js.map",
+    "static/css/2.5f383dab.chunk.css": "/conference2021/static/css/2.5f383dab.chunk.css",
+    "static/js/2.96f28758.chunk.js": "/conference2021/static/js/2.96f28758.chunk.js",
+    "static/js/2.96f28758.chunk.js.map": "/conference2021/static/js/2.96f28758.chunk.js.map",
     "index.html": "/conference2021/index.html",
-    "static/css/2.9188ba00.chunk.css.map": "/conference2021/static/css/2.9188ba00.chunk.css.map",
-    "static/css/main.3e7f7864.chunk.css.map": "/conference2021/static/css/main.3e7f7864.chunk.css.map",
-    "static/js/2.f60f623c.chunk.js.LICENSE.txt": "/conference2021/static/js/2.f60f623c.chunk.js.LICENSE.txt",
+    "static/css/2.5f383dab.chunk.css.map": "/conference2021/static/css/2.5f383dab.chunk.css.map",
+    "static/css/main.62a9a61a.chunk.css.map": "/conference2021/static/css/main.62a9a61a.chunk.css.map",
+    "static/js/2.96f28758.chunk.js.LICENSE.txt": "/conference2021/static/js/2.96f28758.chunk.js.LICENSE.txt",
     "static/media/AlessandroFard.png": "/conference2021/static/media/AlessandroFard.85f09984.png",
     "static/media/AlexRosengarten.png": "/conference2021/static/media/AlexRosengarten.9ecf7e89.png",
     "static/media/AndreaChiba.jpg": "/conference2021/static/media/AndreaChiba.1a5d99ee.jpg",
@@ -36,9 +36,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f68e7507.js",
-    "static/css/2.9188ba00.chunk.css",
-    "static/js/2.f60f623c.chunk.js",
-    "static/css/main.3e7f7864.chunk.css",
-    "static/js/main.8264ebe1.chunk.js"
+    "static/css/2.5f383dab.chunk.css",
+    "static/js/2.96f28758.chunk.js",
+    "static/css/main.62a9a61a.chunk.css",
+    "static/js/main.e621580f.chunk.js"
   ]
 }
