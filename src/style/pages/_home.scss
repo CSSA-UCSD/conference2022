@@ -63,7 +63,7 @@ img {
         -webkit-flex-flow: column-reverse;
         flex-flow: column-reverse;
     }
-    button {
+    .carousel-arrows {
         p {
             font-size: 3rem;
         }
@@ -73,11 +73,13 @@ img {
     }
 }
 
+/*
 .speaker-img {
     img {
         width: 100%;
     }
 }
+*/
 
 .home {
     &-section {

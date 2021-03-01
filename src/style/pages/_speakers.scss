@@ -2,31 +2,29 @@
     /* Speaker Images */
     img {
         height: 250px;
+        width: 100%;
         object-fit: cover;
     }
     @include media-md {
         img {
             height: 300px;
-            object-fit: cover;
         }
     }
     @include media-lg {
         img {
-            height: 450px;
-            object-fit: cover;
+            height: 400px;
         }
     }
 
     .speaker {
-
         &:hover {
-            transform: scale(1.1);
+            transform: scale(1.05);
+            z-index: 100;
         }
 
         &-img {
             -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
             filter: grayscale(100%);
-
             &:hover {
                 -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
                 filter: grayscale(0%);
@@ -37,6 +35,7 @@
             position: absolute;
             bottom: 10%;
             left: 10%;
+            text-align: left;
             h5 {
                 margin: 0 !important;
                 font-weight: 500;
@@ -57,10 +56,18 @@
 .modal {
     position: relative;
     background-color: $primary-light;
-    border-radius: 1rem;
+    border-radius: 16px;
+    .content {
+        img {
+            width: 100%;
+        }
+        .bio {
+            height: 50vh;
+            overflow: scroll;
+        }
+    }
 }
 @at-root.modal {
-  font-size: 12px;
   display: block;
 }
 .modal > .header {
@@ -95,9 +102,27 @@
   //border: 1px solid #cfcece;
 }
 .popup-content {
+    background: $primary-light !important;
+    border: 0 !important;
     margin: auto;
-    background: $primary-light;
+    width: 85% !important;
     padding: 1rem;
-    border: 1px solid #d7d7d7;
-    border-radius: 1rem;
+    //border: 1px solid #d7d7d7;
+    border-radius: 16px;
+    background-clip: padding-box;
+    padding: 1rem;
+    &::after {
+        position: absolute;
+        top: -0.25rem; bottom: -0.25rem;
+        left: -0.25rem; right: -0.25rem;
+        background: linear-gradient(135deg, $gradient-c-1, $gradient-c-2, $gradient-c-3, $gradient-c-4, $gradient-c-5);
+        content: '';
+        z-index: -1;
+        border-radius: 16px;
+    }
+}
+@include media-md {
+    .popup-content {
+        width: 50% !important;
+    }
 }

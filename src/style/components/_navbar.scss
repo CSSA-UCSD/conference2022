@@ -1,3 +1,15 @@
+.nav-link {
+    padding: 0.5rem;
+    &:hover {
+        text-decoration: none;
+        color: rgba($primary-dark, 0.7);
+    }
+}
+@include media-md {
+    .nav-link {
+        padding: 0.5rem 1rem;
+    }
+}
 .navbar {
     background-color: $primary-light;
     color: $primary-dark;
@@ -17,11 +29,6 @@
             height: 100px;
         }
 
-        .nav-link {
-            &:hover {
-                text-decoration: underline;
-            }
-        }
     }
     .menu {
         margin: auto;

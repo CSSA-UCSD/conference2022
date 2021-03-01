@@ -72,12 +72,16 @@ button {
     font: inherit;
     cursor: pointer;
     outline: none;
+
+    &:focus {
+        outline:0 !important;
+    }
 }
+
 input[type="button"] {
     border: none !important;
     outline: none !important;
 }
-
 
 .gradient-button {
     border-radius: 1rem;
