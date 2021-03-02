@@ -12,7 +12,7 @@ const EventData = [
     },
     {
         id: 1,
-        name: "Social/Break: SmartAss",
+        name: "Social/Break",
         category: "",
         day: 1,
         date: "MON 4/5/2021 | 5:50-6:20 PM PST",
@@ -67,7 +67,7 @@ const EventData = [
     },
     {
         id: 5,
-        name: "Social/Break: Heads Up",
+        name: "Social/Break",
         category: "",
         day: 2,
         date: "TUE 4/6/2021 | 5:50-6:20 PM PST",
