@@ -1,13 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 class SpeakerPreview extends React.Component {
 
     render() {
         return (
             <div className="carousel-speaker mx-2">
-                <Link to={'/speakers/#' + this.props.item.id} className='nav-link'>
+                <Link smooth to={'/speakers/#' + this.props.item.id} className='nav-link'>
                 {/*
+                <Link to={'/speakers/#' + this.props.item.id} className='nav-link'>
                 <a href={`#/speakers/#` + this.props.item.id}>
                 */}
                     <div className="speaker-img pb-3">

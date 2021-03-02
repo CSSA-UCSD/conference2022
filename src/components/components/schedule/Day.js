@@ -1,4 +1,6 @@
 import React from "react";
+import { HashLink as Link } from 'react-router-hash-link';
+
 import AOS from "aos";
 import StickyBox from "react-sticky-box";
 
@@ -22,16 +24,16 @@ class Day extends React.Component {
             <div className="day-schedule pb-5" data-aos="fade-up">
                 <div className="row" style={{ display: 'flex', alignItems: 'flex-start' }}>
                     <StickyBox offsetTop={40} offsetBottom={40}>
-                        <div className="px-5">
+                        <div className="sidebar pr-5">
                             <ul>
                                 <li>
-                                    <a href="#day1">Day 1</a>
+                                    <Link smooth to="#day1">Day 1</Link>
                                 </li>
                                 <li>
-                                    <a href="#day2">Day 2</a>
+                                    <Link smooth to="#day2">Day 2</Link>
                                 </li>
                                 <li>
-                                    <a href="#day3">Day 3</a>
+                                    <Link smooth to="#day3">Day 3</Link>
                                 </li>
                             </ul>
                         </div>

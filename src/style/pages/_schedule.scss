@@ -1,4 +1,25 @@
 .schedule {
+    .day-schedule {
+        .sidebar {
+            li {
+                list-style-type: none;
+                margin-bottom: 1.5rem;
+                a {
+                    text-transform: uppercase;
+                    border-radius: 1rem;
+                    border: solid 3px $gradient-c-1;
+                    padding: 0.25rem 1.5rem;
+                    color: $gradient-c-1;
+                }
+            &:hover {
+                a {
+                border: solid 3px rgba($gradient-c-1, 0.5);
+                    color: rgba($gradient-c-1, 0.5);
+                }
+            }
+            }
+        }
+    }
 
         /*
         position: absolute;
