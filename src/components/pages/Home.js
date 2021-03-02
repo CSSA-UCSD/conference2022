@@ -83,7 +83,7 @@ class Home extends React.Component {
 
                     </div>
                     <div className="home-title col-sm-6 ">
-                        <h2>The emerging applications of cognitive science in technology, healthcare, and current global issues.</h2>
+                        <h2>The emerging applications of <span className="home-header-gradient">cognitive science</span> in <span className="home-header-gradient">technology,</span> <span className="home-header-gradient">healthcare,</span> and current <span className="home-header-gradient">global issues</span>.</h2>
                     </div>
                 </div>
                 <div className="home-intro-video py-5">

@@ -93,6 +93,7 @@ input[type="button"] {
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px $primary-light inset;
+    transition: 0.3s;
 
     &:hover {
         box-shadow: none;

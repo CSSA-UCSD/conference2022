@@ -102,6 +102,66 @@ img {
             line-height: 4rem;
             font-weight: lighter;
         }
+
+        @keyframes color-change {
+            0% { background: -webkit-linear-gradient(135deg, $gradient-w-5, $gradient-c-1, $gradient-c-4, $gradient-w-5, $gradient-c-1, $gradient-c-4);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            16% { background: -webkit-linear-gradient(135deg, $gradient-c-1, $gradient-c-4, $gradient-w-5, $gradient-c-1, $gradient-c-4, $gradient-w-5);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            32% { background: -webkit-linear-gradient(135deg, $gradient-c-4, $gradient-w-5, $gradient-c-1, $gradient-c-4, $gradient-w-5, $gradient-c-1);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            48% { background: -webkit-linear-gradient(135deg, $gradient-w-5, $gradient-c-1, $gradient-c-4, $gradient-w-5, $gradient-c-1, $gradient-c-4);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            64% { background: -webkit-linear-gradient(135deg, $gradient-c-1, $gradient-c-4, $gradient-w-5, $gradient-c-1, $gradient-c-4, $gradient-w-5);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            80% { background: -webkit-linear-gradient(135deg, $gradient-c-4, $gradient-w-5, $gradient-c-1, $gradient-c-4, $gradient-w-5, $gradient-c-1);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+                /*
+            10% { background: -webkit-linear-gradient(135deg, $gradient-c-3, $gradient-c-4, $gradient-c-5, $gradient-w-1, $gradient-w-2, $gradient-w-3, $gradient-w-4, $gradient-w-5, $gradient-c-1, $gradient-c-2);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            20% { background: -webkit-linear-gradient(135deg, $gradient-c-4, $gradient-c-5, $gradient-w-1, $gradient-w-2, $gradient-w-3, $gradient-w-4, $gradient-w-5, $gradient-c-1, $gradient-c-2, $gradient-c-3);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            30% { background: -webkit-linear-gradient(135deg, $gradient-c-5, $gradient-w-1, $gradient-w-2, $gradient-w-3, $gradient-w-4, $gradient-w-5, $gradient-c-1, $gradient-c-2, $gradient-c-3, $gradient-c-4);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            40% { background: -webkit-linear-gradient(135deg, $gradient-w-1, $gradient-w-2, $gradient-w-3, $gradient-w-4, $gradient-w-5, $gradient-c-1, $gradient-c-2, $gradient-c-3, $gradient-c-4, $gradient-c-5);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            50% { background: -webkit-linear-gradient(135deg, $gradient-w-2, $gradient-w-3, $gradient-w-4, $gradient-w-5, $gradient-c-1, $gradient-c-2, $gradient-c-3, $gradient-c-4, $gradient-c-5, $gradient-w-1);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            60% { background: -webkit-linear-gradient(135deg, $gradient-w-3, $gradient-w-4, $gradient-w-5, $gradient-c-1, $gradient-c-2, $gradient-c-3, $gradient-c-4, $gradient-c-5, $gradient-w-1, $gradient-w-2);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            70% { background: -webkit-linear-gradient(135deg, $gradient-w-4, $gradient-w-5, $gradient-c-1, $gradient-c-2, $gradient-c-3, $gradient-c-4, $gradient-c-5, $gradient-w-1, $gradient-w-2, $gradient-w-3);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            80% { background: -webkit-linear-gradient(135deg, $gradient-w-5, $gradient-c-1, $gradient-c-2, $gradient-c-3, $gradient-c-4, $gradient-c-5, $gradient-w-1, $gradient-w-2, $gradient-w-3, $gradient-w-4);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+            90% { background: -webkit-linear-gradient(135deg, $gradient-c-1, $gradient-c-2, $gradient-c-3, $gradient-c-4, $gradient-c-5, $gradient-w-1, $gradient-w-2, $gradient-w-3, $gradient-w-4, $gradient-w-5);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;}
+                */
+        }
+
+        .home-header-gradient {
+            //background: -webkit-linear-gradient(135deg, $accent-1, $gradient-c-1, $gradient-w-5);
+                //animation: color-change 3s infinite;
+                animation-timing-function: ease-out;
+                background: -webkit-linear-gradient(135deg, $gradient-w-5, $gradient-c-1, $gradient-c-4, $gradient-w-5, $gradient-c-1, $gradient-c-4);  
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: all ease;
+        }
     }
     &-img {
         img{
