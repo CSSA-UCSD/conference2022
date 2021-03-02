@@ -23,8 +23,7 @@ class Speaker extends React.Component {
                     </div>
                     <div className="speaker-title">
                         <h5>{this.props.item.name}</h5>
-                        {/* <p>{this.props.item.title}</p> */}
-                        <p>{this.props.item.event}</p>
+                        <p>{this.props.item.title}</p>
                     </div>
                 </div>
                 </button>}
@@ -36,11 +35,16 @@ class Speaker extends React.Component {
                     <button className="close" onClick={close}>
                     &times;
                     </button>
-                    <div className="header"> <h5>{this.props.item.name}</h5></div>
+                    <div className="header"> <h5>{this.props.item.name}</h5>
+                    </div>
                     <div className="content row">
                         <div className="col-md-6 d-flex align-items-center pl-3">
+                            <div className="header-description pb-3">
                             <img src={ require(`../../../img/speakers/${this.props.item.img}`).default } 
                                 alt={this.props.item.name} ></img>
+                                <p className="header-description-title">{this.props.item.title}</p>
+                                <p className="header-description-event">{this.props.item.event}</p>
+                            </div>
                         </div>
                         <div className="col-md-6 bio">
                             <p>{this.props.item.bio}</p>

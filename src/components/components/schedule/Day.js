@@ -1,5 +1,6 @@
 import React from "react";
 import AOS from "aos";
+import StickyBox from "react-sticky-box";
 
 import Event from "../../components/schedule/Event";
 import EventData from "../../data/event/EventData";
@@ -19,28 +20,45 @@ class Day extends React.Component {
 
         return (
             <div className="day-schedule pb-5" data-aos="fade-up">
-                <div className="day-img">
-                </div>
-                <div className="day-info">
-                    <div className="schedule-title header-gradient">
-                        <h1>Day 1</h1>
+                <div className="row" style={{ display: 'flex', alignItems: 'flex-start' }}>
+                    <StickyBox offsetTop={40} offsetBottom={40}>
+                        <div className="px-5">
+                            <ul>
+                                <li>
+                                    <a href="#day1">Day 1</a>
+                                </li>
+                                <li>
+                                    <a href="#day2">Day 2</a>
+                                </li>
+                                <li>
+                                    <a href="#day3">Day 3</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </StickyBox>
+                    <div className="content">
+                        <div className="day-info">
+                            <div className="schedule-title header-gradient">
+                                <h1 id="day1">Day 1</h1>
+                            </div>
+                            {/* <p>{this.props.item.description}</p> */}
+                            {Day1Component}
+                        </div>
+                        <div className="day-info">
+                            <div className="schedule-title header-gradient">
+                                <h1 id="day2">Day 2</h1>
+                            </div>
+                            {/* <p>{this.props.item.description}</p> */}
+                            {Day2Component}
+                        </div>
+                        <div className="day-info">
+                            <div className="schedule-title header-gradient">
+                                <h1 id="day3">Day 3</h1>
+                            </div>
+                            {/* <p>{this.props.item.description}</p> */}
+                            {Day3Component}
+                        </div>
                     </div>
-                    {/* <p>{this.props.item.description}</p> */}
-                    {Day1Component}
-                </div>
-                <div className="day-info">
-                    <div className="schedule-title header-gradient">
-                        <h1>Day 2</h1>
-                    </div>
-                    {/* <p>{this.props.item.description}</p> */}
-                    {Day2Component}
-                </div>
-                <div className="day-info">
-                    <div className="schedule-title header-gradient">
-                        <h1>Day 3</h1>
-                    </div>
-                    {/* <p>{this.props.item.description}</p> */}
-                    {Day3Component}
                 </div>
 
             </div>

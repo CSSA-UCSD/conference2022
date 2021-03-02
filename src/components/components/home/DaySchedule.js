@@ -26,7 +26,12 @@ class DaySchedule extends React.Component {
                         <div className="day-info">
                             <h4>{this.props.item.date}</h4>
                             <h2>{this.props.item.name}</h2>
+                            {/* 
                             <p>{this.props.item.description}</p>
+                            */}
+                            <p><span>5-5:50 PM PST</span> {this.props.item.event1}</p>
+                            <p><span>5:50-6:20 PM PST </span>{this.props.item.event2}</p>
+                            <p><span>6:20-7:10 PM PST </span>{this.props.item.event3}</p>
                         </div>
                     </div>
                 </div>
