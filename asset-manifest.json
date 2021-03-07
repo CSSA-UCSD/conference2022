@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/conference2021/static/css/main.32513241.chunk.css",
-    "main.js": "/conference2021/static/js/main.169c96bd.chunk.js",
-    "main.js.map": "/conference2021/static/js/main.169c96bd.chunk.js.map",
-    "runtime-main.js": "/conference2021/static/js/runtime-main.ebbbe9a0.js",
-    "runtime-main.js.map": "/conference2021/static/js/runtime-main.ebbbe9a0.js.map",
+    "main.css": "/conference2021/static/css/main.813e5c40.chunk.css",
+    "main.js": "/conference2021/static/js/main.ae6126d5.chunk.js",
+    "main.js.map": "/conference2021/static/js/main.ae6126d5.chunk.js.map",
+    "runtime-main.js": "/conference2021/static/js/runtime-main.f68e7507.js",
+    "runtime-main.js.map": "/conference2021/static/js/runtime-main.f68e7507.js.map",
     "static/css/2.5f383dab.chunk.css": "/conference2021/static/css/2.5f383dab.chunk.css",
-    "static/js/2.58e05b9a.chunk.js": "/conference2021/static/js/2.58e05b9a.chunk.js",
-    "static/js/2.58e05b9a.chunk.js.map": "/conference2021/static/js/2.58e05b9a.chunk.js.map",
+    "static/js/2.f72cfe23.chunk.js": "/conference2021/static/js/2.f72cfe23.chunk.js",
+    "static/js/2.f72cfe23.chunk.js.map": "/conference2021/static/js/2.f72cfe23.chunk.js.map",
     "index.html": "/conference2021/index.html",
     "static/css/2.5f383dab.chunk.css.map": "/conference2021/static/css/2.5f383dab.chunk.css.map",
-    "static/css/main.32513241.chunk.css.map": "/conference2021/static/css/main.32513241.chunk.css.map",
-    "static/js/2.58e05b9a.chunk.js.LICENSE.txt": "/conference2021/static/js/2.58e05b9a.chunk.js.LICENSE.txt",
+    "static/css/main.813e5c40.chunk.css.map": "/conference2021/static/css/main.813e5c40.chunk.css.map",
+    "static/js/2.f72cfe23.chunk.js.LICENSE.txt": "/conference2021/static/js/2.f72cfe23.chunk.js.LICENSE.txt",
     "static/media/AlessandroFard.png": "/conference2021/static/media/AlessandroFard.85f09984.png",
     "static/media/AlexRosengarten.png": "/conference2021/static/media/AlexRosengarten.9ecf7e89.png",
     "static/media/AndreaChiba.jpg": "/conference2021/static/media/AndreaChiba.1a5d99ee.jpg",
@@ -21,8 +21,10 @@
     "static/media/KyleShannon.png": "/conference2021/static/media/KyleShannon.99659224.png",
     "static/media/LeoHam.jpeg": "/conference2021/static/media/LeoHam.a44e2185.jpeg",
     "static/media/MelodyKim.jpeg": "/conference2021/static/media/MelodyKim.7332ea19.jpeg",
+    "static/media/MelodyKim.jpg": "/conference2021/static/media/MelodyKim.bbc063f5.jpg",
     "static/media/MichaelAllen.jpg": "/conference2021/static/media/MichaelAllen.8db66cd8.jpg",
     "static/media/NaomiLin.jpeg": "/conference2021/static/media/NaomiLin.2c5e1b51.jpeg",
+    "static/media/RobertKaufman.jpg": "/conference2021/static/media/RobertKaufman.4848f346.jpg",
     "static/media/RobertKaufman.jpeg": "/conference2021/static/media/RobertKaufman.86d7fd26.jpeg",
     "static/media/RohiniSen.jpeg": "/conference2021/static/media/RohiniSen.c34da798.jpeg",
     "static/media/ShobhitVarshney.jpeg": "/conference2021/static/media/ShobhitVarshney.aa1af8f7.jpeg",
@@ -35,10 +37,10 @@
     "static/media/testimg.JPG": "/conference2021/static/media/testimg.18fa430a.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.ebbbe9a0.js",
+    "static/js/runtime-main.f68e7507.js",
     "static/css/2.5f383dab.chunk.css",
-    "static/js/2.58e05b9a.chunk.js",
-    "static/css/main.32513241.chunk.css",
-    "static/js/main.169c96bd.chunk.js"
+    "static/js/2.f72cfe23.chunk.js",
+    "static/css/main.813e5c40.chunk.css",
+    "static/js/main.ae6126d5.chunk.js"
   ]
 }
