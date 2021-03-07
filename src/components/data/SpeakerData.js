@@ -34,9 +34,9 @@ const SpeakerData = [
         name: "Stephanie Riès",
         day: 1,
         event: "Workshop: Language/Culture",
-        img: "temp/StephanieRies.jpg",
+        img: "StephanieRies.jpg",
         title: "Professor at SDSU",
-        bio: "Stephanie Riès is a neuroscientist specializing in the cognitive neuroscience of human language. Her areas of interest include neuroscience, psycholinguistics, speech and language disorders, and brain plasticity. She uses different electrophysiology (surface and intracranial electroencephalography and electromyography) and brain imaging methods to study the brain dynamics of control processes in language production in healthy and impaired speakers. Her work seeks to shed light on how the brain reorganizes in populations with brain disorders such as stroke, epilepsy, and brain tumors, and how cognitive control processes are engaged in compensatory processes for language recovery.",
+        bio: "Stephanie is a neuroscientist specializing in the cognitive neuroscience of human language. She received her PhD in cognitive neuroscience at Aix-Marseille University in France (where she’s from), and then did a 5.5 years postdoc at UC Berkeley. Her areas of interest include neuroscience, psycholinguistics, speech and language disorders, and brain plasticity. Stephanie uses different electrophysiology (surface and intracranial electroencephalography and electromyography) and brain imaging methods to study the brain dynamics of control processes in language production in healthy speakers and in individuals with language disorders. Her work seeks to shed light on how the brain reorganizes in populations with brain disorders such as stroke, epilepsy, and brain tumors, and how cognitive control processes are engaged in compensatory processes for language recovery. She has been at SDSU since Fall 2016 and there she teaches undergraduate classes in neuroanatomy and neurogenic disorders, and anatomy of physiology of speech, and a graduate student seminar on grant writing. When not in the lab or the university, she likes to spend time with her family and explore San Diego County and the great Southwest!",
         link: ""
     },
     {
@@ -56,7 +56,7 @@ const SpeakerData = [
         event: "Workshop: Design",
         img: "temp/HimanshuBharadwaj.jpg",
         title: "Digital Experience Design Leader",
-        bio: "I am a digital experience design leader in New York. I have worked at several digital agencies and have consulted several startups to build digital products across a wide range of industries.  I leverage design to drive innovation, solve complex business challenges, increase growth, and impact cultural change. I like going beyond my comfort zone because I truly believe it is the only way to grow personally and professionally. I have created a unique design process that I use to improve efficiency, innovation quotient, and all-around happiness in teams and clients.",
+        bio: "Himanshu is a digital experience design leader in New York. He has worked at several digital agencies and has consulted several startups to build digital products across a wide range of industries. Himanshu leverages design to drive innovation, solve complex business challenges, increase growth, and impact cultural change. He likes going beyond his comfort zone because he truly believes it is the only way to grow personally and professionally. He has created a unique design process that he uses to improve efficiency, innovation quotient, and all-around happiness in teams and clients.",
         link: ""
     },
     {
@@ -66,7 +66,7 @@ const SpeakerData = [
         event: "Workshop: Cognitive Behavioral Neuroscience",
         img: "temp/RohiniSen.jpeg",
         title: "Clinical Research Assistant at the Functional Neuroscience Lab",
-        bio: "",
+        bio: "Rohini is a recent graduate working as a Clinical Research Associate at the Functional Neuroscience Lab at UCSD. She is a core member of the team running a novel clinical trial investigating the effects of  EEG-Neurofeedback training on improving memory and other cognitive skills  in patients of psychiatric disorders. Previously, she has collaborated with renowned neuroscientist V.S. Ramachandran on research projects exploring the cognitive basis of phenomena such as synesthesia, visual illusions and factors influencing memory consolidation in different contexts. She is passionate about understanding the complexities of human thought and behaviour, and aspires to work in the field of mental health. In her free time, she enjoys being outdoors, spending time with her friends and delving deeper into anything that sparks her curiosity!",
         link: ""
     },
     {
@@ -94,9 +94,9 @@ const SpeakerData = [
         name: "Melody Kim",
         day: 3,
         event: "Career Panel",
-        img: "temp/MelodyKim.jpeg",
+        img: "MelodyKim.jpg",
         title: "Product Designer at BetterOmics",
-        bio: "",
+        bio: "Melody Kim is the founding product designer at BetterOmics, a new platform to manage life science data. Previously, she ran design sprints with lots of early stage teams including clients like Twitter, Abbott and lots of YCombinator startups. Before that, she co-founded a YC-backed consumer startup as well and was an early product designer at Coursera. Outside of work, she loves teaching UX through Seasons of Design, discovering new music and cycling around the SF Bay Area.",
         link: ""
     },
     {
@@ -106,7 +106,7 @@ const SpeakerData = [
         event: "Career Panel",
         img: "temp/LeoHam.jpeg",
         title: "Experience Research Manager II at Nike",
-        bio: "",
+        bio: "Leo is an experience researcher at Nike, primarily working on Nike's digital commerce space. He enjoys collaborating cross-functionally with Design, Product, Engineering and other Insights teams to influence a human-centered product development culture. Prior to Nike, he has worked as a UX researcher in the gaming, automotive, open-source and entertainment industries. Outside of work, he enjoys working on random personal projects (woodworking, making bread, etc.) watching movies, and playing sports.",
         link: ""
     },
     {
@@ -146,7 +146,7 @@ const SpeakerData = [
         event: "Poster Session",
         img: "temp/MichaelAllen.jpg",
         title: "Interactive Cognition Lab",
-        bio: "",
+        bio: "Michael is a Ph.D. student in the Cognitive Science department, working between the Interactive Cognition lab there and the Brady lab in the department of Psychology. He received his undergraduate and masters degrees in mathematical physics in Dublin, Ireland, before switching to psychology via a master’s degree in London, and finally arriving in UCSD. He is interested in the intersection of memory, perception and conscious experience, from a philosophical and psychological perspective.",
         link: ""
     },
     {
@@ -154,9 +154,9 @@ const SpeakerData = [
         name: "Robert Kaufman",
         day: 3,
         event: "Poster Session",
-        img: "temp/RobertKaufman.jpeg",
+        img: "RobertKaufman.jpg",
         title: "Interactive Cognition Lab",
-        bio: "",
+        bio: "Currently pursuing a PhD in Cognitive Science at University of California, San Diego, Robert’s work focuses on designing technology that works harmoniously with the people who use it. His current projects fall within the fields of human-computer interaction, human-AI collaboration, and healthcare technology. In the past, Robert managed a research lab in the Psychiatric Neuroscience department at Massachusetts General Hospital and Harvard Medical School studying the effects of yoga and meditation on the brain. He has also worked with Johns Hopkins department of Public Health on increasing vaccination rates and with design teams focused on building technology to help people with various mental health disorders. In his free time, Robert spends much of this time surfing, hiking, and working on entrepreneurial undertakings.",
         link: ""
     },
 
