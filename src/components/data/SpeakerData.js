@@ -11,12 +11,12 @@ const SpeakerData = [
     },
     {
         id: 2,
-        name: "Alex Rosengarten",
+        name: "Alex Merose",
         day: 1,
         event: "Workshop: Machine Learning",
-        img: "temp/AlexRosengarten.png",
+        img: "temp/AlexMerose.png",
         title: "Software Engineer III at Google",
-        bio: "",
+        bio: "Alex is a software engineer at Google AI working on federate learning infrastructure. On the side, he conducts climate & weather research at Google Brain. Previously, he was a machine learning engineer at Aira, a remote assistance platform for the blind. He has worked as a software engineer at several companies, big and small. Alex has published papers in Science and Nature Communications for work applying machine learning to material science problems with UCSD's Nano department. He gets a lot of joy participating in climate activism with the Sunrise Movement, hiking and cooking with his wife, and mentoring UCSD students.",
         link: "https://www.linkedin.com/in/alexrosengarten/"
     },
     {
