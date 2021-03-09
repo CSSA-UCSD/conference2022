@@ -6,7 +6,7 @@ const SpeakerData = [
         event: "Keynote Speaker",
         img: "temp/AlessandroFard.png",
         title: "Founder of CreateApe Creative Agency",
-        bio: "Alessandro is a published UX/UI designer with a passion for amazing design and intelligent user experience. He has over 17 years of experience in web with a special focus in UI/UX. Alessandro is exceptionally skilled at web 2.0 design, UI/UX integration, mobile apps, and implementing advanced responsive/adaptive layouts. His expertise also includes information design and usability analysis with a focus in cognitive thinking from a user basis. Alessandro has worked directly with brands such as Facebook, American Express, Bank of America, eBay, Sony, Yahoo, Blizzard, and many more. His work has been featured in VentureBeat, TechCrunch50, and Newsweek. His article, “The UX University of Life” was featured in UX Magazine. A dedicated life-long learner, Alessandro believes our everyday experiences can be leveraged as part of an ongoing UX education. His aim: turn awesome ideas into epic reality.",
+        bio: "I am a product innovator and user experience guru. I have worked with clients such as TrueCar, Lynda.com, American Express, Bank of America, eBay, Facebook, Sony, Yahoo, Apria, and many more. For over 20 years I have worked with numerous companies in the tech space within multiple industries to deliver interactive product success. As a holistic UX designer, I am an advocate of the user within the business goals. I have enormous experience in specific industries like automotive, healthcare, tech startup, etc. My expertise includes information design & usability analysis with a focus on cognitive thinking from a user standpoint. Using quantitative and qualitative data the goal is always conversion and positive user experience. ",
         link: "https://www.linkedin.com/in/afard/"
     },
     {
@@ -84,9 +84,9 @@ const SpeakerData = [
         name: "Benazir Shaikh",
         day: 3,
         event: "Career Panel",
-        img: "temp/BenazirShaikh.jpeg",
+        img: "BenazirShaikh.jpg",
         title: "User Experience Researcher at Google",
-        bio: "",
+        bio: "Benazir has worked as a UX Researcher at Google for the past 3+ years across various enterprise products. Previously, she was a UX Analyst at a boating retailer, where she was the only researcher for the entire duration of her tenure: building research processes from ground up and advocating for the value of user voice in the product development process. Benazir leverages creative observational methods to understand user behavior that have direct impact on product, and is always looking to break the mold and innovate on traditional qualitative research methodologies.",
         link: ""
     },
     {
@@ -114,9 +114,9 @@ const SpeakerData = [
         name: "Kyle Shannon",
         day: 3,
         event: "Career Panel",
-        img: "temp/KyleShannon.png",
-        title: "Co-Founder/ Data Science Lead at Turnkey Trips",
-        bio: "",
+        img: "KyleShannon.png",
+        title: "Co-Founder/Data Science Lead at Turnkey Trips",
+        bio: "Kyle Shannon is a Cognitive Science UCSD alum and coffee enthusiast. While working on his masters at UCSD he co-founded a healthcare technology company, TurnKey Trips, LLC, where, as Chief Data Soothsayer, he leads the data science/machine learning efforts. Besides running his company, he can still be found burning the midnight oil working on various projects like vaxspotter.info and preparing lecture material for his UCSD Cogs9 Intro to Data Science class.",
         link: ""
     },
     {
