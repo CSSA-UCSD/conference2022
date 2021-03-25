@@ -1,18 +1,15 @@
-/* scroll bar */
-/* Track */
-body::-webkit-scrollbar-track {
-    background: red; 
+h1 {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-/* Handle */
-body::-webkit-scrollbar-thumb {
-    background: #888; 
+@include media-md {
+h1 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 }
 
-/* Handle on hover */
-body::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-}
 img {
     border-radius: 0.5rem;
 }
@@ -182,13 +179,16 @@ img {
         }
     }
     &-img {
-        img{
+        img {
             width: inherit;
         }
-    }
-
-    svg {
-        margin: auto;
+        svg {
+            display: none;
+            margin: auto;
+            @include media-md {
+                display: block;
+            }
+        }
     }
 }
 

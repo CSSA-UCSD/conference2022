@@ -23,8 +23,8 @@ class Day extends React.Component {
         return (
             <div className="day-schedule pb-5" data-aos="fade-up">
                 <div className="row" style={{ display: 'flex', alignItems: 'flex-start' }}>
-                    <StickyBox offsetTop={40} offsetBottom={40}>
-                        <div className="sidebar pr-5">
+                    <StickyBox offsetBottom={40} className="sidebar" >
+                        <div className="pr-5">
                             <ul>
                                 <li>
                                     <Link smooth to="#day1">Day 1</Link>
