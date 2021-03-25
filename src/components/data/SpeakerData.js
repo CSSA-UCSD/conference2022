@@ -159,6 +159,16 @@ const SpeakerData = [
         bio: "Currently pursuing a PhD in Cognitive Science at University of California, San Diego, Robert’s work focuses on designing technology that works harmoniously with the people who use it. His current projects fall within the fields of human-computer interaction, human-AI collaboration, and healthcare technology. In the past, Robert managed a research lab in the Psychiatric Neuroscience department at Massachusetts General Hospital and Harvard Medical School studying the effects of yoga and meditation on the brain. He has also worked with Johns Hopkins department of Public Health on increasing vaccination rates and with design teams focused on building technology to help people with various mental health disorders. In his free time, Robert spends much of this time surfing, hiking, and working on entrepreneurial undertakings.",
         link: ""
     },
+    {
+        id: 17,
+        name: "Erick Sandoval",
+        day: 3,
+        event: "Poster Session",
+        img: "ErickSandoval.png",
+        title: "Learning and Instruction in Multimedia Environments Lab",
+        bio: "I am a 4th-year undergraduate student majoring in Clinical Psychology at UCSD. I have been in Dr. Geller's Learning and Instruction in Multimedia Environments (LIME) lab for just over two years researching the cognitive theory of multimedia learning. I am interested in the idea of learning, specifically learning from multimedia presentations, and how different factors of video play a role in this. My current project is an exploratory study attempting to measure cognitive load and relate it to how much people learn from watching video lessons on the same topic! In the future, I hope to expand on this idea and eventually study the most beneficial ways information can be taught to make it easiest for students to learn.   ",
+        link: ""
+    },
 
 ]
 

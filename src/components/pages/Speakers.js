@@ -22,7 +22,7 @@ class Events extends React.Component {
                         <h1 className="">Speakers</h1>
                     </div>
                 </div>
-                <div className="px-5 row">
+                <div className="px-5 ">
                     {SpeakerComponent}
                 </div>
             </div>
