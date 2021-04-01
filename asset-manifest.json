@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/conference2021/static/css/main.1f4fb5a7.chunk.css",
-    "main.js": "/conference2021/static/js/main.1781ee85.chunk.js",
-    "main.js.map": "/conference2021/static/js/main.1781ee85.chunk.js.map",
+    "main.js": "/conference2021/static/js/main.c5853983.chunk.js",
+    "main.js.map": "/conference2021/static/js/main.c5853983.chunk.js.map",
     "runtime-main.js": "/conference2021/static/js/runtime-main.f68e7507.js",
     "runtime-main.js.map": "/conference2021/static/js/runtime-main.f68e7507.js.map",
     "static/css/2.5f383dab.chunk.css": "/conference2021/static/css/2.5f383dab.chunk.css",
-    "static/js/2.9abb82c1.chunk.js": "/conference2021/static/js/2.9abb82c1.chunk.js",
-    "static/js/2.9abb82c1.chunk.js.map": "/conference2021/static/js/2.9abb82c1.chunk.js.map",
+    "static/js/2.a5358cf4.chunk.js": "/conference2021/static/js/2.a5358cf4.chunk.js",
+    "static/js/2.a5358cf4.chunk.js.map": "/conference2021/static/js/2.a5358cf4.chunk.js.map",
     "index.html": "/conference2021/index.html",
     "static/css/2.5f383dab.chunk.css.map": "/conference2021/static/css/2.5f383dab.chunk.css.map",
     "static/css/main.1f4fb5a7.chunk.css.map": "/conference2021/static/css/main.1f4fb5a7.chunk.css.map",
-    "static/js/2.9abb82c1.chunk.js.LICENSE.txt": "/conference2021/static/js/2.9abb82c1.chunk.js.LICENSE.txt",
+    "static/js/2.a5358cf4.chunk.js.LICENSE.txt": "/conference2021/static/js/2.a5358cf4.chunk.js.LICENSE.txt",
     "static/media/AlessandroFard.png": "/conference2021/static/media/AlessandroFard.85f09984.png",
     "static/media/AlexMerose.png": "/conference2021/static/media/AlexMerose.9ecf7e89.png",
     "static/media/AndreaChiba.jpg": "/conference2021/static/media/AndreaChiba.1a5d99ee.jpg",
@@ -32,6 +32,7 @@
     "static/media/ShobhitVarshney.jpeg": "/conference2021/static/media/ShobhitVarshney.aa1af8f7.jpeg",
     "static/media/StephanieRies.jpg": "/conference2021/static/media/StephanieRies.adc605e4.jpg",
     "static/media/SumedhaGarud.jpeg": "/conference2021/static/media/SumedhaGarud.7923b372.jpeg",
+    "static/media/SumedhaGarud.jpg": "/conference2021/static/media/SumedhaGarud.e5bc57b8.jpg",
     "static/media/main.scss": "/conference2021/static/media/Wavehaus-95SemiBold.4e467f6b.otf",
     "static/media/Wordmark_Dark.b599f14b.svg": "/conference2021/static/media/Wordmark_Dark.b599f14b.svg",
     "static/media/Wordmark_White.b2d6097a.svg": "/conference2021/static/media/Wordmark_White.b2d6097a.svg",
@@ -41,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.f68e7507.js",
     "static/css/2.5f383dab.chunk.css",
-    "static/js/2.9abb82c1.chunk.js",
+    "static/js/2.a5358cf4.chunk.js",
     "static/css/main.1f4fb5a7.chunk.css",
-    "static/js/main.1781ee85.chunk.js"
+    "static/js/main.c5853983.chunk.js"
   ]
 }
