@@ -124,9 +124,9 @@ const SpeakerData = [
         name: "Sumedha Garud",
         day: 3,
         event: "Career Panel",
-        img: "temp/SumedhaGarud.jpeg",
+        img: "SumedhaGarud.jpg",
         title: "Marketing/Outreach at NASA Ames Center",
-        bio: "",
+        bio: "Sumedha works at NASA’s Aerospace Simulation Research Labs. Through science communication and outreach, she develops partnerships with industry, academia, and other government agencies. As a UCSD Cognitive Science alum, Sumedha credits the program with giving her a multidisciplinary background – helping her support wide-ranging aeronautics initiatives from electric air taxis to next-generation lunar landers. Back on Earth, Sumedha loves creating art – she combines digital and traditional painting techniques in a style that reflects her eclectic experience in the technical and artistic fields.",
         link: ""
     },
     {
