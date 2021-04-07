@@ -40,12 +40,25 @@ class Event extends React.Component {
                     <p>{this.props.item.description}</p>
                     */}
                     <div>
-                        <button className="gradient-button">
-                            {/*
-                            <a className="" href={this.props.item.url} target="_blank" rel="noopener noreferrer">Zoom Link</a>
-                            */}
-                            <a className="" href="http://bit.ly/CSSARegistration" target="_blank" rel="noopener noreferrer">Zoom Link</a>
-                        </button>
+                        {this.props.item.url ?
+                            <div>
+                                <button className="gradient-button">
+                                    {/*
+                                    <a className="" href={this.props.item.url} target="_blank" rel="noopener noreferrer">Zoom Link</a>
+                                    */}
+                                    <a className="" href="http://bit.ly/CSSARegistration" target="_blank" rel="noopener noreferrer">Zoom Link</a>
+                                </button>
+                            </div>
+                            : null
+                        }
+                        {this.props.item.recording ?
+                            <div>
+                                <button className="gradient-button">
+                                        <a className="" href={this.props.item.recording} target="_blank" rel="noopener noreferrer">Recording</a>
+                                </button>
+                            </div>
+                            : null
+                        }
                     </div>
                 </div>
 
