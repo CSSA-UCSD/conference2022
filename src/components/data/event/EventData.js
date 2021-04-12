@@ -107,7 +107,7 @@ const EventData = [
         date: "WED 4/7/2021 | 5-5:50 PM PST",
         img: "",
         description: "Benazir Shaikh,  Benazir Shaikh, Leo Ham, Kyle Shannon, Sumedha Garud | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        recording: ""
+        recording: "https://drive.google.com/file/d/1SX7_r_r2WvaAafQ2O6Azd1u3W4mRpsax/view?usp=sharing"
     },
     {
         id: 9,
