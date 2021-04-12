@@ -57,7 +57,7 @@ const EventData = [
         date: "TUE 4/6/2021 | 5-5:50 PM PST",
         img: "",
         description: "Shobhit Varshney | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        recording: ""
+        recording: "https://drive.google.com/file/d/1VqpybKFD2O6f0biQzMuuIJcuqcY6NWlF/view?usp=sharing"
     },
     {
         id: 5,
@@ -77,7 +77,7 @@ const EventData = [
         date: "TUE 4/6/2021 | 6:20-7:10 PM PST",
         img: "",
         description: "Himanshu Bharadwaj | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        recording: ""
+        recording: "https://drive.google.com/file/d/1BYEBdZCTKQvgc18APyhsiRW60MILAWL5/view?usp=sharing"
     },
     {
         id: 7,
@@ -107,7 +107,6 @@ const EventData = [
         date: "WED 4/7/2021 | 5-5:50 PM PST",
         img: "",
         description: "Benazir Shaikh,  Benazir Shaikh, Leo Ham, Kyle Shannon, Sumedha Garud | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        url: "http://bit.ly/CSSAConference",
         recording: ""
     },
     {
@@ -118,7 +117,6 @@ const EventData = [
         date: "WED 4/7/2021 | 5:50-6:20 PM PST",
         img: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        url: "http://bit.ly/CSSAConference",
         recording: ""
     },
     {
@@ -129,8 +127,7 @@ const EventData = [
         date: "WED 4/7/2021 | 6:20-7:10 PM PST",
         img: "",
         description: "Felix Binder, Michael Allen, Robert Kaufman| Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        url: "http://bit.ly/CSSAConference",
-        recording: ""
+        recording: "https://drive.google.com/drive/folders/1Ysn9HVimeSvEz-VF_gfxlN_YE4GcWr9m?usp=sharing"
     },
 ]
 
