@@ -37,7 +37,7 @@ const EventData = [
         date: "MON 4/5/2021 | 6:20-7:10 PM PST",
         img: "",
         description: "Andrea Chiba | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        recording: ""
+        recording: "https://drive.google.com/file/d/1tMNakwvKT_N7YIlFeJOKQYHOzHxss_wt/view?usp=sharing"
     },
     {
         id: 4,
