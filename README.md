@@ -1,5 +1,6 @@
 # UCSD Cognitive Science Student Association Conference 2022
 Note: The `master` branch is the code from last year's conference. You can consider each branch as different versions of the code, such as different features or designs before merging into the main code that changes the deployed website.
+## Git Instructions
 ### Getting Started
 * To clone this repository, run `git clone https://github.com/CSSA-UCSD/conference2022.git` in your terminal. *Any edits made in the `main` branch and pushed to this remote repository will change the actual live website.* If it's just local edits on your computer (without pushing the changes), the live deployed website won't be affected. 
 * After cloning, you'll be in the `main` branch (you should be able to tell in your terminal). Start by working on a new branch by running `git checkout -b name_of_branch` where `name_of_branch` can by your *name* if you'd like to try developing a different version/design of the website, or the *feature* you'd like to implement onto the current conference page. This command should take you to the new branch as you create it.
@@ -8,11 +9,11 @@ Note: The `master` branch is the code from last year's conference. You can consi
 * Check for any remote updates or local changes made by running `git status` in whichever branch you'd like to know. This tells you which files have been changed or whether your current branch is behind the remote repository, which should have the most updated version of the actual website. If you'd like to check for updates on the actual live website, make sure you're in the `main` branch to run this command. You'll also be able to see if there are any updates in each branch on GitHub.
 * **Make sure to `git pull` for any updates in the `main` branch when working on the code!** 
 ### Saving Code Changes
-* Once you've made changes you'd like to save, add the file changed by running `git add file_name` or if you'd like to add all files changed at once, run `git add .`.
-* After adding the filed, run `git commit -m message` where `message` is a short description of the changes made. This simulates a snapshot of the current status of the code. You could also do both at once by running `git commit -am message`.
-* Push your branch to GitHub for the first time by running `git push -u origin name_of_branch`. `origin` is just a conventional term for remote (online) repository. Feel free to double check resources online for any uncertainties! 
+1. Once you've made changes you'd like to save, add the file changed by running `git add file_name` or if you'd like to add all files changed at once, run `git add .`.
+2. After adding the filed, run `git commit -m message` where `message` is a short description of the changes made. This simulates a snapshot of the current status of the code. You could also do both at once by running `git commit -am message`.
+3. Push your branch to GitHub for the first time by running `git push -u origin name_of_branch`. Running `git push` uploads your code to GitHub and allows others to see/clone changes you've made on the branch. `origin` is just a conventional term for remote (online) repository. Feel free to double check resources online for any uncertainties! 
 * For subsequent changes you make, you'll only have to run `git push` after adding and committing the files changed. 
-
+---
 
 ## Available Scripts
 In the project directory, you can run:
