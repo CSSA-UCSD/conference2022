@@ -1,16 +1,16 @@
 // font imports
 @font-face {
-    font-family: 'Wavehaus';
-    src: url("../../assets/fonts/graham-paterson-wavehaus-typeface/Wavehaus-95SemiBold.otf") format('opentype');
+    font-family: 'Manrope';
+    src: url("../../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf") format('opentype');
 }
 @font-face {
-    font-family: 'Wavehaus';
-    src: url("../../assets/fonts/graham-paterson-wavehaus-typeface/Wavehaus-66Book.otf") format('opentype');
+    font-family: 'Sometype Mono';
+    src: url("../../assets/fonts/Sometype-Mono-master/fonts/ttf/SometypeMono-Medium.ttf") format('opentype');
 }
 @import url(https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,400;0,500;1,400;1,500&display=swap);
 // fonts
-$header-font: 'Wavehaus', sans-serif;
-$body-font: 'Be Vietnam', sans-serif;
+$header-font: 'Manrope', sans-serif;
+$body-font: 'Sometype Mono', sans-serif;
 
 // colors
 $primary-light: #000000;

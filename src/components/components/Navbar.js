@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../img/logos/Wordmark_Dark.svg";
+// import Logo from "../../img/logos/Wordmark_Dark.svg";
+import Logo from "../../assets/Logo with glow.png";
+import LogoNoGlow from "../../assets/Logo without glow.png";
 
 class Navbar extends React.Component {
     render() {
