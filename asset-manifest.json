@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/conference2022/static/css/main.d853c415.chunk.css",
-    "main.js": "/conference2022/static/js/main.9ff5edff.chunk.js",
-    "main.js.map": "/conference2022/static/js/main.9ff5edff.chunk.js.map",
+    "main.css": "/conference2022/static/css/main.88fbfdc9.chunk.css",
+    "main.js": "/conference2022/static/js/main.581ac66d.chunk.js",
+    "main.js.map": "/conference2022/static/js/main.581ac66d.chunk.js.map",
     "runtime-main.js": "/conference2022/static/js/runtime-main.5d78ead5.js",
     "runtime-main.js.map": "/conference2022/static/js/runtime-main.5d78ead5.js.map",
     "static/css/2.7e7b7d7b.chunk.css": "/conference2022/static/css/2.7e7b7d7b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.eb95de65.chunk.js.map": "/conference2022/static/js/2.eb95de65.chunk.js.map",
     "index.html": "/conference2022/index.html",
     "static/css/2.7e7b7d7b.chunk.css.map": "/conference2022/static/css/2.7e7b7d7b.chunk.css.map",
-    "static/css/main.d853c415.chunk.css.map": "/conference2022/static/css/main.d853c415.chunk.css.map",
+    "static/css/main.88fbfdc9.chunk.css.map": "/conference2022/static/css/main.88fbfdc9.chunk.css.map",
     "static/js/2.eb95de65.chunk.js.LICENSE.txt": "/conference2022/static/js/2.eb95de65.chunk.js.LICENSE.txt",
     "static/media/AlessandroFard.png": "/conference2022/static/media/AlessandroFard.85f09984.png",
     "static/media/AlexMerose.png": "/conference2022/static/media/AlexMerose.9ecf7e89.png",
@@ -22,6 +22,9 @@
     "static/media/HimanshuBharadwaj.jpg": "/conference2022/static/media/HimanshuBharadwaj.1e54aa2d.jpg",
     "static/media/KyleShannon.png": "/conference2022/static/media/KyleShannon.baea4550.png",
     "static/media/LeoHam.jpeg": "/conference2022/static/media/LeoHam.a44e2185.jpeg",
+    "static/media/Logo with glow.647cd6e5.png": "/conference2022/static/media/Logo with glow.647cd6e5.png",
+    "static/media/Logo without glow.526bee26.png": "/conference2022/static/media/Logo without glow.526bee26.png",
+    "static/media/main.scss": "/conference2022/static/media/SometypeMono-Medium.5ce77ce2.ttf",
     "static/media/MelodyKim.jpeg": "/conference2022/static/media/MelodyKim.7332ea19.jpeg",
     "static/media/MelodyKim.jpg": "/conference2022/static/media/MelodyKim.bbc063f5.jpg",
     "static/media/MichaelAllen.jpg": "/conference2022/static/media/MichaelAllen.4af204f3.jpg",
@@ -33,8 +36,6 @@
     "static/media/StephanieRies.jpg": "/conference2022/static/media/StephanieRies.adc605e4.jpg",
     "static/media/SumedhaGarud.jpeg": "/conference2022/static/media/SumedhaGarud.7923b372.jpeg",
     "static/media/SumedhaGarud.jpg": "/conference2022/static/media/SumedhaGarud.e5bc57b8.jpg",
-    "static/media/main.scss": "/conference2022/static/media/Wavehaus-95SemiBold.4e467f6b.otf",
-    "static/media/Wordmark_Dark.b599f14b.svg": "/conference2022/static/media/Wordmark_Dark.b599f14b.svg",
     "static/media/Wordmark_White.b2d6097a.svg": "/conference2022/static/media/Wordmark_White.b2d6097a.svg",
     "static/media/styles.css": "/conference2022/static/media/revicons.e8746a62.woff",
     "static/media/testimg.JPG": "/conference2022/static/media/testimg.18fa430a.JPG"
@@ -43,7 +44,7 @@
     "static/js/runtime-main.5d78ead5.js",
     "static/css/2.7e7b7d7b.chunk.css",
     "static/js/2.eb95de65.chunk.js",
-    "static/css/main.d853c415.chunk.css",
-    "static/js/main.9ff5edff.chunk.js"
+    "static/css/main.88fbfdc9.chunk.css",
+    "static/js/main.581ac66d.chunk.js"
   ]
 }
