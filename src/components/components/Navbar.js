@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 // import Logo from "../../img/logos/Wordmark_Dark.svg";
 import Logo from "../../assets/Logo with glow.png";
 import LogoNoGlow from "../../assets/Logo without glow.png";
+import LogoSVG from "../../assets/conference logo 2022.svg";
 
 class Navbar extends React.Component {
     render() {
@@ -10,7 +11,12 @@ class Navbar extends React.Component {
             <div>
                 <nav className="navbar">
                     <div className="container">
-                        <Link to="/" className="navbar-brand"><img src={Logo} alt="CSSA @ UCSD"></img> </Link>
+                            <Link to="/" className="navbar-brand">
+                                <img src={LogoSVG} alt="CSSA @ UCSD Conference Logo" 
+                                onMouseOver={e => e.currentTarget.src=Logo}
+                                onMouseOut={e => e.currentTarget.src=LogoSVG}
+                                />
+                            </Link>
                         <div className="menu">
                             <ul className="nav">
                                 <li className='nav-item'>
