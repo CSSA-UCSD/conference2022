@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/conference2022/static/css/main.a641cd39.chunk.css",
-    "main.js": "/conference2022/static/js/main.cc025c6e.chunk.js",
-    "main.js.map": "/conference2022/static/js/main.cc025c6e.chunk.js.map",
+    "main.js": "/conference2022/static/js/main.d65d24e4.chunk.js",
+    "main.js.map": "/conference2022/static/js/main.d65d24e4.chunk.js.map",
     "runtime-main.js": "/conference2022/static/js/runtime-main.5d78ead5.js",
     "runtime-main.js.map": "/conference2022/static/js/runtime-main.5d78ead5.js.map",
     "static/css/2.7e7b7d7b.chunk.css": "/conference2022/static/css/2.7e7b7d7b.chunk.css",
@@ -37,6 +37,8 @@
     "static/media/SumedhaGarud.jpeg": "/conference2022/static/media/SumedhaGarud.7923b372.jpeg",
     "static/media/SumedhaGarud.jpg": "/conference2022/static/media/SumedhaGarud.e5bc57b8.jpg",
     "static/media/Wordmark_White.b2d6097a.svg": "/conference2022/static/media/Wordmark_White.b2d6097a.svg",
+    "static/media/conference icon 2022.5496e6bb.svg": "/conference2022/static/media/conference icon 2022.5496e6bb.svg",
+    "static/media/conference logo 2022.c1586214.svg": "/conference2022/static/media/conference logo 2022.c1586214.svg",
     "static/media/styles.css": "/conference2022/static/media/revicons.e8746a62.woff",
     "static/media/testimg.JPG": "/conference2022/static/media/testimg.18fa430a.JPG"
   },
@@ -45,6 +47,6 @@
     "static/css/2.7e7b7d7b.chunk.css",
     "static/js/2.eb95de65.chunk.js",
     "static/css/main.a641cd39.chunk.css",
-    "static/js/main.cc025c6e.chunk.js"
+    "static/js/main.d65d24e4.chunk.js"
   ]
 }
