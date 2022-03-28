@@ -2,7 +2,7 @@ const DayScheduleData = [
     {
         id: 1,
         name: "Day 1",
-        date: "MON 4/5/2021 | 5-7:10 PM PST",
+        date: "TUES 4/26/2022 | 5-7:10 PM PST",
         img: "winter2021/IntroToDataAnalytics.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         event1: "Keynote Speaker: Alessandro Fard",  
@@ -13,7 +13,7 @@ const DayScheduleData = [
     {
         id: 2,
         name: "Day 2",
-        date: "MON 4/6/2021 | 5-7:10 PM PST",
+        date: "WED 4/27/2022 | 5-7:10 PM PST",
         img: "winter2021/IntroToDataAnalytics.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         event1: "Keynote Speaker: Shobhit Varshney",  
@@ -24,7 +24,7 @@ const DayScheduleData = [
     {
         id: 3,
         name: "Day 3",
-        date: "WED 4/7/2021 | 5-7:10 PM PST",
+        date: "THURS 4/28/2022 | 5-7:10 PM PST",
         img: "winter2021/IntroToDataAnalytics.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         event1: "Career Panel",  
