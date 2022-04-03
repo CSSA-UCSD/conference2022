@@ -36,7 +36,7 @@ class Navbar extends React.Component {
                                 </li>
                                 <li className='nav-item'>
                                     <h6>
-                                        <a href='https://urldefense.com/v3/__https://ucsd.zoom.us/w/91595431566?tk=ZUbRWXc9JiglvhsaeDsBt-NB1zdW2FK3uTvnhfJa8mk.DQIAAAAVU4NejhZSLWQ3WHlrRVFLZWFqLUlhdUVybFNnAAAAAAAAAAAAAAAAAAAAAAAAAAAA__;!!Mih3wA!Se0Nw7K3IQ3dbDF1ZldGin8IFC0FcDz4f8dx5ccQNWv5suDce9RavD0sYjVc5BQw$' target="_blank" className='nav-link'>Zoom</a>
+                                        <a href='https://ucsd.zoom.us/j/99955400276' target="_blank" className='nav-link'>Zoom</a>
                                     </h6>
                                 </li>
                             </ul>
