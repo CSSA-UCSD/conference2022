@@ -13,8 +13,8 @@ class Navbar extends React.Component {
                     <div className="container">
                             <Link to="/" className="navbar-brand">
                                 <img src={LogoSVG} alt="CSSA @ UCSD Conference Logo" 
-                                onMouseOver={e => e.currentTarget.src=Logo}
-                                onMouseOut={e => e.currentTarget.src=LogoSVG}
+                                    onMouseOver={e => e.currentTarget.src=Logo}
+                                    onMouseOut={e => e.currentTarget.src=LogoSVG}
                                 />
                             </Link>
                         <div className="menu">
