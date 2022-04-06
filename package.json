@@ -23,7 +23,8 @@
     "react-router-hash-link": "^2.4.0",
     "react-scripts": "^4.0.1",
     "react-sticky-box": "^0.9.3",
-    "reactjs-popup": "^2.0.4"
+    "reactjs-popup": "^2.0.4",
+    "yarn": "^1.22.18"
   },
   "scripts": {
     "start": "react-scripts start",

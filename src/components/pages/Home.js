@@ -73,7 +73,7 @@ class Home extends React.Component {
                     <h3><Link to='/schedule' className='nav-link'><span className="header-gradient">Schedule</span></Link></h3>
                     {ScheduleComponent}
                 </div>
-                <div className="speakers pb-5">
+                {/* <div className="speakers pb-5">
                     <div className="speakers-carousel">
                         <Carousel 
                         responsive={responsive}
@@ -88,7 +88,7 @@ class Home extends React.Component {
                            {SpeakerComponent}
                         </Carousel>
                     </div>
-                </div>
+                </div> */}
             </div>
         );
     }
