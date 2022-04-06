@@ -89,6 +89,15 @@ class Home extends React.Component {
                         </Carousel>
                     </div>
                 </div> */}
+                <div className="speakers">
+                    <div className="container py-5">
+                        <div className="speakers-title header-gradient pt-5">
+                            <h1 className="">Speakers</h1>
+                            <p className="px-5">Soon to be released!</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         );
     }
