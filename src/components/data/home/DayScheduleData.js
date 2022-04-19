@@ -5,9 +5,27 @@ const DayScheduleData = [
         date: "TUES 4/26/2022 | 5-7:10 PM PST",
         img: "winter2021/IntroToDataAnalytics.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        event1: "Keynote Speaker: TBA",  
-        event2: "Social/Break",  
-        event3: "Workshops: Machine Learning, Neuroscience, Language/Culture",  
+        // event1: "Keynote Speaker: TBA", 
+        // event2: "Social/Break",  
+        // event3: "Workshops: Machine Learning, Neuroscience, Language/Culture",  
+        events: [
+            {
+                title: "Welcome Introduction",
+                time: "5-5:05pm PDT"
+            },
+            {
+                title: "Keynote Speaker: Nate Bolt",
+                time: "5:05-5:50pm PDT"
+            },
+            {
+                title: "Social Activity/Break",
+                time: "5:50-6:20pm PDT"
+            },
+            {
+                title: "Workshop: Transitioning from Academia to Industry w/ Ben Cipollini",
+                time: "6:20-7:10pm PDT"
+            }
+        ],
         url: "",
     },
     {

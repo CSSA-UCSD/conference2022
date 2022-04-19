@@ -67,7 +67,7 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div className="home-intro-video py-5">
-                    <iframe title="conference-2022" width="100%" height="500" src="https://www.youtube.com/embed/Gx60wEdPc7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="conference-2022" width="100%" height="500" src="https://www.youtube.com/embed/Gx60wEdPc7w" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <div className="schedule">
                     <h3><Link to='/schedule' className='nav-link'><span className="header-gradient">Schedule</span></Link></h3>

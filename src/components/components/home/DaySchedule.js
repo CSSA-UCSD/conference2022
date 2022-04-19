@@ -29,9 +29,18 @@ class DaySchedule extends React.Component {
                             {/* 
                             <p>{this.props.item.description}</p>
                             */}
-                            <p><span>5-5:50 PM PST</span> {this.props.item.event1}</p>
-                            <p><span>5:50-6:20 PM PST </span>{this.props.item.event2}</p>
-                            <p><span>6:20-7:10 PM PST </span>{this.props.item.event3}</p>
+                            {/* {
+                                this.props.item.event1 && 
+                                this.props.item.evenTime1 && 
+                                <p><span>{this.props.item.eventTime1}</span> {this.props.item.event1}</p>
+                            } */}
+                            {console.log(this.props.item.events)}
+                            { this.props.item.events && this.props.item.events.map(event => {
+                                // this.props.items.eventTime[index]
+                                return <p><span>{event.time}</span> {event.title}</p>
+                            })}
+                            {/* <p><span>5:50-6:20 PM PST </span>{this.props.item.event2}</p> */}
+                            {/* <p><span>6:20-7:10 PM PST </span>{this.props.item.event3}</p> */}
                         </div>
                     </div>
                 </div>
