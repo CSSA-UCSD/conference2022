@@ -56,9 +56,6 @@ const DayScheduleData = [
         date: "THURS 4/28/2022 | 5-7:10 PM PST",
         img: "winter2021/IntroToDataAnalytics.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        // event1: "Career Panel",  
-        // event2: "Social/Break",  
-        // event3: "Poster Session",  
         events: [
             {
                 title: "Career Panel",
