@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/conference2022/static/css/main.2e5b384d.chunk.css",
-    "main.js": "/conference2022/static/js/main.c3e5aacd.chunk.js",
-    "main.js.map": "/conference2022/static/js/main.c3e5aacd.chunk.js.map",
+    "main.js": "/conference2022/static/js/main.897c6b3e.chunk.js",
+    "main.js.map": "/conference2022/static/js/main.897c6b3e.chunk.js.map",
     "runtime-main.js": "/conference2022/static/js/runtime-main.5d78ead5.js",
     "runtime-main.js.map": "/conference2022/static/js/runtime-main.5d78ead5.js.map",
     "static/css/2.0d5112fb.chunk.css": "/conference2022/static/css/2.0d5112fb.chunk.css",
@@ -47,6 +47,6 @@
     "static/css/2.0d5112fb.chunk.css",
     "static/js/2.ed5584ed.chunk.js",
     "static/css/main.2e5b384d.chunk.css",
-    "static/js/main.c3e5aacd.chunk.js"
+    "static/js/main.897c6b3e.chunk.js"
   ]
 }
