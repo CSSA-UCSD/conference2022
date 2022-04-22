@@ -63,7 +63,7 @@ const DayScheduleData = [
                 time: "5:50-6:20pm PDT"
             },
             {
-                title: "Research/Lab Symposium: Virginia De Sa, Resarch/Lab Symposium: Prof. Wiggins (SDSU)",
+                title: "Research/Lab Symposium: Virginia De Sa, Research/Lab Symposium: Prof. Wiggins (SDSU)",
                 time: "6:20-7:10pm PDT"
             }
         ],
