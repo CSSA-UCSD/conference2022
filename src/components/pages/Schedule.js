@@ -15,7 +15,7 @@ class Team extends React.Component {
                         <h1 className="pb-5">Schedule</h1>
                     </div>
                     <Day />
-                    {EventComponent}
+                    {/* {EventComponent} */}
 
                 </div>
             </div>

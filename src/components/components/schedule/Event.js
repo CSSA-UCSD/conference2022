@@ -36,9 +36,7 @@ class Event extends React.Component {
                 <div className="day-info">
                     <h4>{this.props.item.date}</h4>
                     <h2>{this.props.item.name}</h2>
-                    {/*
-                    <p>{this.props.item.description}</p>
-                    */}
+                    {/* <p>{this.props.item.description}</p> */}
                     <div>
                         {this.props.item.url ?
                             <div>

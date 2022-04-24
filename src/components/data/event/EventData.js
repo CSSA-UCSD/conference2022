@@ -1,38 +1,43 @@
 const EventData = [
     {
+        id: 1,
         name: "Welcome Introduction",
         day: 1,
         date: "TUES 4/26/2022 | 5-5:05pm PDT",
         location: "Price Theater",
+        description: "",
         recording: ""
     },
     {
-        id: 1,
+        id: 2,
         name: "Keynote Speaker: Nate Bolt",
         category: "",
         day: 1,
         date: "TUES 4/26/2022 | 5:05-5:50 PM PDT",
         img: "",
         location: "Price Theater",
+        description: "Nate Bolt does Machine Learning research",
         // recording: "https://drive.google.com/file/d/1HkEnIrncPPnrcIptwU1w803odmeFakKJ/view?usp=sharing"
     },
     {
-        id: 1,
+        id: 3,
         name: "Social Activity/Break",
         category: "",
         day: 1,
         date: "TUES 4/26/2022 | 5:50-6:20 PM PDT",
         img: "",
         location: "Price Theater",
+        description: "",
     },
     {
-        id: 2,
+        id: 4,
         name: "Workshop: Transitioning from Academia to Industry w/ Ben Cipollini",
         category: "",
         day: 1,
         date: "TUES 4/26/2022 | 6:20-7:10 PM PDT",
         img: "",
         location: "Price Theater",
+        description: "",
         // recording: "https://drive.google.com/file/d/1YTMugWPzFigthLwBf2cF5O-w2LeDDKE_/view?usp=sharing"
     },
     {
@@ -43,20 +48,22 @@ const EventData = [
         date: "WED 4/27/2022 | 5-5:50 PM PDT",
         img: "",
         location: "Thurgood Marshall College Room",
+        description: "",
         // recording: "https://drive.google.com/file/d/1VqpybKFD2O6f0biQzMuuIJcuqcY6NWlF/view?usp=sharing"
     },
     {
-        id: 5,
+        id: 6,
         name: "Social Activity/Break",
         category: "",
         day: 2,
         date: "WED 4/27/2022 | 5:50-6:20 PM PDT",
         location: "Thurgood Marshall College Room",
         img: "",
+        description: "",
         recording: ""
     },
     {
-        id: 6,
+        id: 7,
         name: "Workshop: Neuroscience",
         category: "",
         day: 2,
@@ -67,7 +74,7 @@ const EventData = [
         // recording: "https://drive.google.com/file/d/1BYEBdZCTKQvgc18APyhsiRW60MILAWL5/view?usp=sharing"
     },
     {
-        id: 9,
+        id: 8,
         name: "Career Panel",
         category: "",
         day: 3,
