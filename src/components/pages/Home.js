@@ -18,31 +18,31 @@ class Home extends React.Component {
 
     componentDidMount() {
         AOS.init({
-            duration : 2000
+            duration: 2000
         });
     }
 
     render() {
-        const ScheduleComponent = DayScheduleData.map(item => < DaySchedule key={item.id} item={item}/>);
-        const SpeakerComponent = SpeakerData.map(item => < SpeakerPreview key={item.id} item={item}/>);
+        const ScheduleComponent = DayScheduleData.map(item => < DaySchedule key={item.id} item={item} />);
+        const SpeakerComponent = SpeakerData.map(item => < SpeakerPreview key={item.id} item={item} />);
         const responsive = {
             desktop: {
                 breakpoint: { max: 3000, min: 1024 },
                 items: 2,
                 slidesToSlide: 2 // optional, default to 1.
-              },
-              tablet: {
+            },
+            tablet: {
                 breakpoint: { max: 1024, min: 464 },
                 items: 2,
                 slidesToSlide: 2 // optional, default to 1.
-              },
-              mobile: {
+            },
+            mobile: {
                 breakpoint: { max: 464, min: 0 },
                 items: 1,
                 slidesToSlide: 1 // optional, default to 1.
-              }
-          };
-          const ButtonGroup = ({ next, previous}) => {
+            }
+        };
+        const ButtonGroup = ({ next, previous }) => {
             return (
                 <div className="custom-button-group row d-flex">
                     <div className="speakers-home-link mr-auto align-self-center">
@@ -53,19 +53,24 @@ class Home extends React.Component {
                         <button className="carousel-arrows" onClick={() => next()}><p>&#8250;</p></button>
                     </div>
                 </div>
-              );
-          };
+            );
+        };
 
         return (
             <div className="home container">
                 <div className="row py-5">
                     <div className="home-img col-sm-6 d-flex align-items-center">
-                        <img src={IconSVG} alt="conference icon"/>
+                        <img src={IconSVG} alt="conference icon" />
                     </div>
                     <div className="home-title col-sm-6 ">
                         <h2>Evolutions in <span className="home-header-gradient">technology</span>, <span className="home-header-gradient">healthcare</span>, and current <span className="home-header-gradient">global issues</span> within the cognitive science chrysalis.</h2>
                     </div>
                 </div>
+                <h1><span class="header-gradient">About</span></h1>
+                <p>Cognitive Science Student Association at UCSD invites you to join our 15th annual National Cognitive Science Conference! Our annual conference is a 3-day event that highlights how current global events impact the way in which we interact with the world around us. Join us for a packed schedule of engaging presentations, interactive workshops, and invaluable networking!</p>
+                <p>This year's theme of “The Cognitive Metamorphosis” will focus on the emerging adaptations of cognitive science in technology, healthcare, and current global issues.</p>
+                <p>The conference will be held hybrid through both Zoom and in-person events and split into three days from 04/26/2022 to 04/28/2022.</p>
+
                 <div className="home-intro-video py-5">
                     <iframe title="conference-2022" width="100%" height="500" src="https://www.youtube.com/embed/Gx60wEdPc7w" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
