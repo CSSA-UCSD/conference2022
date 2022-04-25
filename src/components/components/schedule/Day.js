@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import AOS from "aos";
 import StickyBox from "react-sticky-box";
@@ -23,8 +24,8 @@ class Day extends React.Component {
         return (
             <div className="day-schedule pb-5" data-aos="fade-up">
                 <div className="row" style={{ display: 'flex', alignItems: 'flex-start' }}>
-                    <StickyBox offsetBottom={40} className="sidebar" >
-                        <div className="pr-5">
+                    <StickyBox offsetBottom={40} className="sidebar mx-auto" >
+                        {/* <div className=""> */}
                             <ul>
                                 <li>
                                     <Link smooth to="#day1">Day 1</Link>
@@ -36,26 +37,25 @@ class Day extends React.Component {
                                     <Link smooth to="#day3">Day 3</Link>
                                 </li>
                             </ul>
-                        </div>
+                        {/* </div> */}
                     </StickyBox>
                     <div className="content">
-                        <div className="day-info">
+                        <div className="day" id="day1">
                             <div className="schedule-title header-gradient">
-                                <h1 id="day1">Day 1</h1>
+                                <h1>Day 1</h1>
                             </div>
-                            {/* <p>{this.props.item.description}</p> */}
                             {Day1Component}
                         </div>
-                        <div className="day-info">
+                        <div className="day" id="day2">
                             <div className="schedule-title header-gradient">
-                                <h1 id="day2">Day 2</h1>
+                                <h1>Day 2</h1>
                             </div>
                             {/* <p>{this.props.item.description}</p> */}
                             {Day2Component}
                         </div>
-                        <div className="day-info">
+                        <div className="day" id="day3">
                             <div className="schedule-title header-gradient">
-                                <h1 id="day3">Day 3</h1>
+                                <h1>Day 3</h1>
                             </div>
                             {/* <p>{this.props.item.description}</p> */}
                             {Day3Component}

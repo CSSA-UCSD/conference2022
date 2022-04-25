@@ -5,14 +5,24 @@ const DayScheduleData = [
         date: "TUES 4/26/2022 | 5-7:10 PM PST",
         img: "winter2021/IntroToDataAnalytics.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        event1: "Welcome Introduction", 
-        eventTime1: "5:00-5:05 PDT",
-        event2: "Keynote Speaker: Nate Bolt",
-        eventTime2: "5:05-5:50 PDT",  
-        event3: "Social/Break",
-        eventTime3: "5:50-6:20 PDT",  
-        event4: "Workshop: Transitioning from Academia to Industry with Ben Cipollini",
-        eventTime4: "6:20-7:10 PDT",  
+        events: [
+            {
+                title: "Welcome Introduction",
+                time: "5-5:05pm PDT"
+            },
+            {
+                title: "Keynote Speaker: Nate Bolt",
+                time: "5:05-5:50pm PDT"
+            },
+            {
+                title: "Social Activity/Break",
+                time: "5:50-6:20pm PDT"
+            },
+            {
+                title: "Workshop: Transitioning from Academia to Industry w/ Ben Cipollini",
+                time: "6:20-7:10pm PDT"
+            }
+        ],
         url: "",
     },
     {
@@ -21,12 +31,20 @@ const DayScheduleData = [
         date: "WED 4/27/2022 | 5-7:10 PM PST",
         img: "winter2021/IntroToDataAnalytics.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        event1: "Keynote Speaker: TBA",
-        eventTime1: "5:00-5:50 PDT",  
-        event2: "Social/Break",
-        eventTime2: "5:50-6:20 PDT",   
-        event3: "Workshop: Ben Cipollini - Transitioning from Academia to Industry",  
-        eventTime3: "6:20-7:10 PDT",  
+        events: [
+            {
+                title: "Keynote Speaker: Vasudev Lal [Intel]",
+                time: "5-5:50pm PDT"
+            },
+            {
+                title: "Social Activity/Break",
+                time: "5:50-6:20pm PDT"
+            },
+            {
+                title: "Workshop: Neuroscience w/ Stephanie Alfonso",
+                time: "6:20-7:10pm PDT"
+            }
+        ],
         url: "",
     },
     {
@@ -35,12 +53,20 @@ const DayScheduleData = [
         date: "THURS 4/28/2022 | 5-7:10 PM PST",
         img: "winter2021/IntroToDataAnalytics.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        event1: "Career Panel", 
-        eventTime1: "5:00-5:50 PDT", 
-        event2: "Social/Break",  
-        eventTime2: "5:50-6:20 PDT", 
-        event3: "Poster Session",
-        eventTime3: "6:20-7:10 PDT",    
+        events: [
+            {
+                title: "Career Panel",
+                time: "5-5:50pm PDT"
+            }, 
+            {
+                title: "Social Activity/Break",
+                time: "5:50-6:20pm PDT"
+            },
+            {
+                title: "Research/Lab Symposium: Virginia De Sa, Research/Lab Symposium: Prof. Wiggins (SDSU)",
+                time: "6:20-7:10pm PDT"
+            }
+        ],
         url: "",
     },
 ]
