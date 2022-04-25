@@ -64,7 +64,7 @@ const SpeakerData = [
         name: "Phi Nguyen",
         day: 3,
         event: "Career Panel",
-        img: require('./Phi_Nguyen'),
+        img: 'Phi_Nguyen.jpeg',
         title: "Senior Data Scientist at San Diego Gas and Electric",
         bio: "",
         link: ""
