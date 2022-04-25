@@ -16,7 +16,7 @@ img {
 
 
 .header-gradient {
-    background: -webkit-linear-gradient(135deg, $accent-1, $gradient-c-1, $gradient-w-5);
+    background: -webkit-linear-gradient(135deg, $primary-dark, $accent-1, $gradient-w-5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -172,7 +172,8 @@ img {
             //background: -webkit-linear-gradient(135deg, $accent-1, $gradient-c-1, $gradient-w-5);
                 //animation: color-change 3s infinite;
                 animation-timing-function: ease-out;
-                background: -webkit-linear-gradient(135deg, $gradient-w-5, $gradient-c-1, $gradient-c-4, $gradient-w-5, $gradient-c-1, $gradient-c-4);  
+                // background: -webkit-linear-gradient(135deg, $gradient-w-5, $gradient-c-1, $gradient-c-4, $gradient-w-5, $gradient-c-1, $gradient-c-4);  
+                background: -webkit-linear-gradient(135deg, $accent-1, $gradient-w-5, $gradient-c-2, $digital-blue, $gradient-c-5, $accent-1);  
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 transition: all ease;
