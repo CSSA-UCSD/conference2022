@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import { HashLink as Link } from 'react-router-hash-link';
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 class SpeakerPreview extends React.Component {
 
@@ -8,21 +8,22 @@ class SpeakerPreview extends React.Component {
         return (
             <div className="carousel-speaker mx-2">
                 <Link smooth to={'/speakers/#' + this.props.item.id} className='nav-link'>
-                {/*
-                <Link to={'/speakers/#' + this.props.item.id} className='nav-link'>
-                <a href={`#/speakers/#` + this.props.item.id}>
-                */}
+                    
+                {/* <Link to={'/speakers/#' + this.props.item.id} className='nav-link'> */}
+                <a href={`/speakers/#` + this.props.item.id}>
+               
                     <div className="speaker-img pb-3">
-                        <img src={ require(`../../../img/speakers/${this.props.item.img}`).default } 
+                        <img src={require(`../../../img/speakers/${this.props.item.img}`).default}
                             alt={this.props.item.name} ></img>
+                        <div className="speaker-title">
+                            <h5>{this.props.item.name}</h5>
+                            <p>{this.props.item.title}</p>
+                        </div>
+
                     </div>
-                    <div className="speaker-title">
-                        <h5>{this.props.item.name}</h5>
-                        <p>{this.props.item.title}</p>
-                    </div>
-                {/*
+                    
                 </a>
-                */}
+               
                 </Link>
             </div>
         );
