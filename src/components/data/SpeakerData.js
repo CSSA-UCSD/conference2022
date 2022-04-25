@@ -3,8 +3,8 @@ const SpeakerData = [
         id: 1,
         name: "Nate Bolt",
         day: 1,
-        event: "Keynote Speaker",
-        img: "temp/AlessandroFard.png",
+        event: "Day 1 (4/26) Keynote Speaker",
+        img: "NateBolt.jpg",
         title: "Founder, Ethnio",
         bio: "",
         link: "https://www.linkedin.com/in/boltron/"
@@ -13,8 +13,8 @@ const SpeakerData = [
         id: 2,
         name: "Dr. Ben Cipollini",
         day: 1,
-        event: "Workshop: Transitioning from Academia to Industry",
-        img: "temp/AlexMerose.png",
+        event: "Day 1 (4/26) Workshop: Transitioning from Academia to Industry",
+        img: "BenCipollini.jpg",
         title: "Data Science Manager at Facebook",
         bio: "",
         link: "https://www.linkedin.com/in/social-sector-data-insights/"
@@ -24,7 +24,7 @@ const SpeakerData = [
         name: "Vasudev Lal",
         day: 2,
         event: "Keynote Speaker",
-        img: "temp/AndreaChiba.jpg",
+        img: "VasudevLal.jpg",
         title: "AI/ML Research Scientist at Intel Labs",
         bio: "",
         link: "https://www.linkedin.com/in/vasudev-lal-79bb336/"
@@ -34,7 +34,7 @@ const SpeakerData = [
         name: "Stephanie Alfonso",
         day: 2,
         event: "Workshop: Neuroscience",
-        img: "StephanieRies.jpg",
+        img: "StephanieAlfonso.jpg",
         title: "Instructor at UCSD",
         bio: "",
         link: "https://www.linkedin.com/in/stephanie-alfonso-19793bab/"
@@ -44,7 +44,7 @@ const SpeakerData = [
         name: "Ana Chkhaidze",
         day: 3,
         event: "Career Panel",
-        img: "temp/ShobhitVarshney.jpeg",
+        img: "AnaChkhaidze.jpg",
         title: "PhD Student at UCSD",
         bio: "",
         link: "https://www.linkedin.com/in/ana-chkhaidze-451765158/"
@@ -54,7 +54,7 @@ const SpeakerData = [
         name: "Robert Kaufman",
         day: 3,
         event: "Career Panel",
-        img: "temp/HimanshuBharadwaj.jpg",
+        img: "RobertKaufman.jpg",
         title: "PhD Student at UCSD",
         bio: "",
         link: "https://www.linkedin.com/in/robertakaufman/"
