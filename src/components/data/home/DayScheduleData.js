@@ -8,19 +8,19 @@ const DayScheduleData = [
         events: [
             {
                 title: "Welcome Introduction",
-                time: "5-5:05pm PDT"
+                time: "5-5:05pm PDT | Price Theater"
             },
             {
                 title: "Keynote Speaker: Nate Bolt",
-                time: "5:05-5:50pm PDT"
+                time: "5:05-5:50pm PDT | Price Theater"
             },
             {
                 title: "Social Activity/Break",
-                time: "5:50-6:20pm PDT"
+                time: "5:50-6:20pm PDT | Price Theater"
             },
             {
                 title: "Workshop: Transitioning from Academia to Industry w/ Ben Cipollini",
-                time: "6:20-7:10pm PDT"
+                time: "6:20-7:10pm PDT | Price Theater" 
             }
         ],
         url: "",
@@ -34,15 +34,15 @@ const DayScheduleData = [
         events: [
             {
                 title: "Keynote Speaker: Vasudev Lal [Intel]",
-                time: "5-5:50pm PDT"
+                time: "5-5:50pm PDT | Thurgood Marshall College Room"
             },
             {
                 title: "Social Activity/Break",
-                time: "5:50-6:20pm PDT"
+                time: "5:50-6:20pm PDT | Thurgood Marshall College Room"
             },
             {
                 title: "Workshop: Neuroscience w/ Stephanie Alfonso",
-                time: "6:20-7:10pm PDT"
+                time: "6:20-7:10pm PDT | Thurgood Marshall College Room"
             }
         ],
         url: "",
@@ -56,16 +56,20 @@ const DayScheduleData = [
         events: [
             {
                 title: "Career Panel",
-                time: "5-5:50pm PDT"
+                time: "5-5:50pm PDT | Thurgood Marshall College Room"
             }, 
             {
                 title: "Social Activity/Break",
-                time: "5:50-6:20pm PDT"
+                time: "5:50-6:20pm PDT | Thurgood Marshall College Room"
             },
             {
-                title: "Research/Lab Symposium: Virginia De Sa, Research/Lab Symposium: Prof. Wiggins (SDSU)",
-                time: "6:20-7:10pm PDT"
-            }
+                title: "Research/Lab Symposium: Virginia De Sa",
+                time: "6:20-7:10pm PDT | Thurgood Marshall College Room"
+            }, 
+            {
+                title: "Research/Lab Symposium: Prof. Wiggins (SDSU)",
+                time: "6:20-7:10pm PDT | Green Table Room"
+            },
         ],
         url: "",
     },
