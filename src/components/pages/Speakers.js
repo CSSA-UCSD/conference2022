@@ -20,12 +20,12 @@ class Events extends React.Component {
                 <div className="container py-5">
                     <div className="speakers-title header-gradient pt-5">
                         <h1 className="">Speakers</h1>
-                        <p className="px-5">Soon to be announced!</p>
+                        <p className="px-5"></p>
                     </div>
                 </div>
-                {/* <div className="px-5 ">
+                { <div className="px-5 ">
                     {SpeakerComponent}
-                </div> */}
+                </div> }
             </div>
         );
     }
