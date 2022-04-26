@@ -67,9 +67,48 @@ const SpeakerData = [
         img: 'Phi_Nguyen.jpeg',
         title: "Senior Data Scientist at San Diego Gas and Electric",
         bio: "",
-        link: ""
+        link: "https://www.linkedin.com/in/pdashk/",
     },
-
+    {
+        id: 8,
+        name: "Ebrahim Feghhi",
+        day: 3,
+        event: "Career Panel",
+        img: 'EbrahimFeghhi.jpg',
+        title: "Neuroscience PhD Student at UCLA",
+        bio: "",
+        link: "https://www.linkedin.com/in/ebrahim-feghhi-1a158010b/"
+    },
+    {
+        id: 9,
+        name: "Meilin Zhan",
+        day: 3,
+        event: "Career Panel",
+        img: 'MeilinZhan.jpg',
+        title: "Data Scientist | Cognitive Scientist | Computational Linguist",
+        bio: "",
+        link: "https://www.linkedin.com/in/meilinzhan/"
+    },
+    {
+        id: 10,
+        name: "Jillian Lee Wiggins",
+        day: 3,
+        event: "Research/Lab Symposium at Green Table Room",
+        img: 'JillianWiggins.jpg',
+        title: "SDSU Associate Professor",
+        bio: "",
+        link: "https://psychology.sdsu.edu/people/jillian-wiggins/"
+    },
+    {
+        id: 11,
+        name: "Virginia De Sa",
+        day: 3,
+        event: "Research/Lab Symposium at Thurgood Marshall College Room",
+        img: 'VirginiaDeSa.jpg',
+        title: "UCSD Professor",
+        bio: "",
+        link: "https://cogsci.ucsd.edu/~desa/"
+    }
 ]
 
 export default SpeakerData;
