@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/conference2022/static/css/main.62a6a575.chunk.css",
-    "main.js": "/conference2022/static/js/main.74f6bb98.chunk.js",
-    "main.js.map": "/conference2022/static/js/main.74f6bb98.chunk.js.map",
+    "main.js": "/conference2022/static/js/main.412699df.chunk.js",
+    "main.js.map": "/conference2022/static/js/main.412699df.chunk.js.map",
     "runtime-main.js": "/conference2022/static/js/runtime-main.5d78ead5.js",
     "runtime-main.js.map": "/conference2022/static/js/runtime-main.5d78ead5.js.map",
     "static/css/2.0d5112fb.chunk.css": "/conference2022/static/css/2.0d5112fb.chunk.css",
-    "static/js/2.8cf0c70a.chunk.js": "/conference2022/static/js/2.8cf0c70a.chunk.js",
-    "static/js/2.8cf0c70a.chunk.js.map": "/conference2022/static/js/2.8cf0c70a.chunk.js.map",
+    "static/js/2.3af0d7df.chunk.js": "/conference2022/static/js/2.3af0d7df.chunk.js",
+    "static/js/2.3af0d7df.chunk.js.map": "/conference2022/static/js/2.3af0d7df.chunk.js.map",
     "index.html": "/conference2022/index.html",
     "static/css/2.0d5112fb.chunk.css.map": "/conference2022/static/css/2.0d5112fb.chunk.css.map",
     "static/css/main.62a6a575.chunk.css.map": "/conference2022/static/css/main.62a6a575.chunk.css.map",
-    "static/js/2.8cf0c70a.chunk.js.LICENSE.txt": "/conference2022/static/js/2.8cf0c70a.chunk.js.LICENSE.txt",
+    "static/js/2.3af0d7df.chunk.js.LICENSE.txt": "/conference2022/static/js/2.3af0d7df.chunk.js.LICENSE.txt",
     "static/media/AlessandroFard.png": "/conference2022/static/media/AlessandroFard.85f09984.png",
     "static/media/AlexMerose.png": "/conference2022/static/media/AlexMerose.9ecf7e89.png",
     "static/media/AnaChkhaidze.jpg": "/conference2022/static/media/AnaChkhaidze.b698a2a0.jpg",
     "static/media/AndreaChiba.jpg": "/conference2022/static/media/AndreaChiba.1a5d99ee.jpg",
     "static/media/BenCipollini.jpg": "/conference2022/static/media/BenCipollini.b6e108f4.jpg",
     "static/media/BenazirShaikh.jpeg": "/conference2022/static/media/BenazirShaikh.9dc88b47.jpeg",
+    "static/media/EbrahimFeghhi.jpg": "/conference2022/static/media/EbrahimFeghhi.efe3761b.jpg",
     "static/media/FelixBinder.png": "/conference2022/static/media/FelixBinder.4c6026d0.png",
     "static/media/HimanshuBharadwaj.jpg": "/conference2022/static/media/HimanshuBharadwaj.1e54aa2d.jpg",
     "static/media/KyleShannon.png": "/conference2022/static/media/KyleShannon.99659224.png",
@@ -25,6 +26,7 @@
     "static/media/Logo with glow.647cd6e5.png": "/conference2022/static/media/Logo with glow.647cd6e5.png",
     "static/media/Logo without glow.526bee26.png": "/conference2022/static/media/Logo without glow.526bee26.png",
     "static/media/main.scss": "/conference2022/static/media/SometypeMono-Medium.5ce77ce2.ttf",
+    "static/media/MeilinZhan.jpg": "/conference2022/static/media/MeilinZhan.023871f6.jpg",
     "static/media/MelodyKim.jpeg": "/conference2022/static/media/MelodyKim.7332ea19.jpeg",
     "static/media/MichaelAllen.jpg": "/conference2022/static/media/MichaelAllen.4af204f3.jpg",
     "static/media/NaomiLin.jpeg": "/conference2022/static/media/NaomiLin.2c5e1b51.jpeg",
@@ -45,8 +47,8 @@
   "entrypoints": [
     "static/js/runtime-main.5d78ead5.js",
     "static/css/2.0d5112fb.chunk.css",
-    "static/js/2.8cf0c70a.chunk.js",
+    "static/js/2.3af0d7df.chunk.js",
     "static/css/main.62a6a575.chunk.css",
-    "static/js/main.74f6bb98.chunk.js"
+    "static/js/main.412699df.chunk.js"
   ]
 }
