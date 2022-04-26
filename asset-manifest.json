@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/conference2022/static/css/main.62a6a575.chunk.css",
-    "main.js": "/conference2022/static/js/main.412699df.chunk.js",
-    "main.js.map": "/conference2022/static/js/main.412699df.chunk.js.map",
+    "main.css": "/conference2022/static/css/main.25e488d2.chunk.css",
+    "main.js": "/conference2022/static/js/main.df0fbde5.chunk.js",
+    "main.js.map": "/conference2022/static/js/main.df0fbde5.chunk.js.map",
     "runtime-main.js": "/conference2022/static/js/runtime-main.5d78ead5.js",
     "runtime-main.js.map": "/conference2022/static/js/runtime-main.5d78ead5.js.map",
     "static/css/2.0d5112fb.chunk.css": "/conference2022/static/css/2.0d5112fb.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3af0d7df.chunk.js.map": "/conference2022/static/js/2.3af0d7df.chunk.js.map",
     "index.html": "/conference2022/index.html",
     "static/css/2.0d5112fb.chunk.css.map": "/conference2022/static/css/2.0d5112fb.chunk.css.map",
-    "static/css/main.62a6a575.chunk.css.map": "/conference2022/static/css/main.62a6a575.chunk.css.map",
+    "static/css/main.25e488d2.chunk.css.map": "/conference2022/static/css/main.25e488d2.chunk.css.map",
     "static/js/2.3af0d7df.chunk.js.LICENSE.txt": "/conference2022/static/js/2.3af0d7df.chunk.js.LICENSE.txt",
     "static/media/AlessandroFard.png": "/conference2022/static/media/AlessandroFard.85f09984.png",
     "static/media/AlexMerose.png": "/conference2022/static/media/AlexMerose.9ecf7e89.png",
@@ -48,7 +48,7 @@
     "static/js/runtime-main.5d78ead5.js",
     "static/css/2.0d5112fb.chunk.css",
     "static/js/2.3af0d7df.chunk.js",
-    "static/css/main.62a6a575.chunk.css",
-    "static/js/main.412699df.chunk.js"
+    "static/css/main.25e488d2.chunk.css",
+    "static/js/main.df0fbde5.chunk.js"
   ]
 }
