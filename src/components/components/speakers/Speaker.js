@@ -39,7 +39,7 @@ class Speaker extends React.Component {
                     </div>
                     <div className="content row">
                         <div className="col-md-6 d-flex align-items-center pl-3" style={{'margin': 'auto'}}>
-                            <div className="header-description pb-3">
+                            <div className="header-description">
                             <img src={ require(`../../../img/speakers/${this.props.item.img}`).default } 
                                 alt={this.props.item.name} ></img>
                                 <p className="header-description-title">{this.props.item.title}</p>
