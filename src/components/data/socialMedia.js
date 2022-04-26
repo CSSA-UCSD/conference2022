@@ -1,5 +1,11 @@
 const socialMedia = [
     {
+        id: 0,
+        platform: "tiktok",
+        icon: "fab fa-tiktok fa-lg mr-md-5 mr-3 fa-2x",
+        url: "https://vm.tiktok.com/TTPd974pSn/"
+    },
+    {
         id: 1,
         platform: "facebook",
         icon: "fab fa-facebook-f fa-lg black-text mr-md-5 mr-3 fa-2x",
