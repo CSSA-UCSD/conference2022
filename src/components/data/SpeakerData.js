@@ -85,7 +85,7 @@ const SpeakerData = [
         day: 3,
         event: "Career Panel",
         img: 'MeilinZhan.jpg',
-        title: "Data Scientist | Cognitive Scientist | Computational Linguist",
+        title: "Data Scientist at Airbnb",
         bio: "",
         link: "https://www.linkedin.com/in/meilinzhan/"
     },
