@@ -42,7 +42,9 @@ class Speaker extends React.Component {
                             <div className="header-description">
                             <img src={ require(`../../../img/speakers/${this.props.item.img}`).default } 
                                 alt={this.props.item.name} ></img>
-                                <p className="header-description-title">{this.props.item.title}</p>
+                                <p className="header-description-title">
+                                    <a className="header-description-link" href={this.props.item.link}>{this.props.item.title}</a>
+                                </p>
                                 <p className="header-description-event">{this.props.item.event}</p>
                             </div>
                         </div>
