@@ -83,8 +83,8 @@ class Home extends React.Component {
                         <Carousel 
                         responsive={responsive}
                         infinite={true}
-                        // autoPlay={true}
-                        autoPlaySpeed={4000}
+                        autoPlay={true}
+                        autoPlaySpeed={3500}
                         centerMode={true}
                         arrows={true}
                         renderButtonGroupOutside={true} 
