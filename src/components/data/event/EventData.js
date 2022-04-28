@@ -70,7 +70,7 @@ const EventData = [
     },
     {
         id: 8,
-        name: "Career Panel",
+        name: "Thurgood Marshall College Room",
         category: "",
         day: 3,
         date: "THUR 4/28/2022 | 5-5:50 PM PDT",
