@@ -15,7 +15,7 @@ const EventData = [
         date: "TUES 4/26/2022 | 5:05-5:50 PM PDT",
         img: "",
         location: "Price Theater",
-        // recording: "https://drive.google.com/file/d/1HkEnIrncPPnrcIptwU1w803odmeFakKJ/view?usp=sharing"
+        recording: "https://ucsd.zoom.us/rec/share/3ys2iBBx9XFWb4VFdpMfTdBzosVcHNVic__D5tT0TeFDN71hK6jI_1xkjHmYpwE.mhMHn6PXegJ7nmiF"
     },
     {
         id: 3,
@@ -45,7 +45,7 @@ const EventData = [
         date: "WED 4/27/2022 | 5-5:50 PM PDT",
         img: "",
         location: "Thurgood Marshall College Room",
-        // recording: "https://drive.google.com/file/d/1VqpybKFD2O6f0biQzMuuIJcuqcY6NWlF/view?usp=sharing"
+        recording: "https://ucsd.zoom.us/rec/share/pE06Bdhgi29H50jtI-1t0_TgiC9rIHALr6kg9KGUnYmoyNaNkT_gJjm-Dc7Udqw.0ikkpQifmUNFWmRy"
     },
     {
         id: 6,
